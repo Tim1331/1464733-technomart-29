@@ -52,3 +52,21 @@
          url('../fonts/cuprum-v12-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/cuprum-v12-latin_cyrillic-700.svg#Cuprum') format('svg'); /* Legacy iOS */
   }
+  /* Variables */
+  :root {
+       --basic-black: #000000;
+	  --basic-white: #ffffff;
+	  --basic-red: #EE3643;
+       --basic-extra-red: #B52933;
+       --basic-deep-blue: #32425C;
+       --basic-night-blue: #293449;
+       --basic-orange: #FFBF47;
+       --basic-light-blue: #3BBCE3;
+       --basic-purple: #DC91D8;
+       --basic-green-tea: #8ED78F;
+       --basic-extra-orange: #FFC047;
+       --basic-grey-purple: #F9F5F0;
+       --basic-white-blue: #F1F5F7;
+       --basic-icon-fon: #212A3A;
+       --basic-brulee: #FFD180;
+  }
