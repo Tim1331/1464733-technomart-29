@@ -55,9 +55,10 @@
   /* Variables */
   :root {
        --basic-black: #000000;
-	  --basic-white: #ffffff;
+	  --basic-white: #FFFFFF;
 	  --basic-red: #EE3643;
        --basic-extra-red: #B52933;
+       --basic-hover-red: #CA2C37;
        --basic-deep-blue: #32425C;
        --basic-night-blue: #293449;
        --basic-red-active: #BA2732;
@@ -65,8 +66,12 @@
        --basic-navblue-active: #1D2739;
        --basic-green-active: #63A63E;
        --basic-grey-active: #C5C5C5;
+       --basic-hover-rgb: rgba(197, 197, 197, 0.3);
        --basic-sale-active: #518534;
        --basic-green-hover: #5FBB2D;
+       --basic-rgb: rgba(255, 255, 255, 0.5);
+       --basic-rgb-extra: rgba(255, 255, 255, 0.4);
+       --basic-rgb-slide: rgba(0, 0, 0, 0.25);
        --basic-mark-active:#98A0AD;
        --basic-orange: #FFBF47;
        --basic-light-blue: #3BBCE3;
@@ -78,6 +83,12 @@
        --basic-white-blue: #F1F5F7;
        --basic-icon-fon: #212A3A;
        --basic-brulee: #FFD180;   
+       --basic-through: #A9A9A9;
+       --basic-through-rgb: rgba(169, 169, 169, 0.3);
+       --basic-product-border: #EAEAEA;
+       --basic-footer-adress: #F3F7F9;
+       --basic-hover-delivery: #405069;
+
   }
 /* Global*/
 body {
@@ -87,6 +98,8 @@ body {
      font-size: 13px;
      line-height: 24px;
      font-family: 'PT Sans', Verdana, sans-serif;
+     font-style: normal;
+     font-weight: normal;
      color: var(--basic-black);
      background-color: var(--basic-white);
 }
@@ -99,8 +112,11 @@ img {
      max-width: 100%;
      height: auto;
 }
-
-
+/*центровщик*/
+.container {
+     width: 940px;
+     margin: 0 auto;
+}
 /*.header-main*/
 .header-main {
      background-color: var(--basic-white-blue);  
@@ -109,19 +125,19 @@ img {
 .header-top{
      background-color: var(--basic-night-blue);
 }
-.header-top-content a {
-     display: inline-block;
+.header-logo {
      background-color: var(--basic-red);
      box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
      text-align: center;
      text-transform: uppercase;
      font-size: 20px;
      color: var(--basic-white);
-     border-bottom: 5px solid var(--basic-extra-red);
+}
+.header-logo:active {
+     background-color: var(--basic-red-active);
 }
 .header-top-links {
      font-size:  18px;
-     color: var(--basic-white);
      background-color: transparent;
 }
 .button-list {
@@ -131,6 +147,370 @@ img {
      font-size: 18px;
      color: var(--basic-white);
 }
-.button-item:last-child a {
+.button-item a:active {
+     background-color: var(--basic-navblue-active);
+     color: var(--basic-rgb);
+}
+.btn-order{
      background-color: var(--basic-green);
 }
+.btn-order:hover{
+     background-color: var(--basic-green-hover);
+}
+.btn-order:active{
+     background-color: var(--basic-green-active);
+}
+.btn-order:focus{
+     color: var(--basic-rgb);
+}
+/*------------------------------------------------------*/
+.header-bottom-title {
+     color: var(--basic-red);
+     font-style: italic;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 23px;
+}
+.header-bottom-contact {
+     font-weight: bold;
+     font-size: 21px;
+     line-height: 30px;
+}
+.header-bottom-tel {
+     color: var(--basic-red);
+     border: 3px solid var(--basic-white);
+}
+.header-bottom-addres {
+     font-size: 14px;
+     color: var(--basic-deep-blue);
+}
+.block-btn-bottom {
+     font-size: 21px;
+     line-height: 21px;
+}
+.header-bottom-btn {
+     background-color: var(--basic-white);
+     color: var(--basic-black);
+     text-align: center;
+}
+.header-bottom-btn:hover {
+     color: var(--basic-red);
+}
+.header-bottom-btn:active {
+     color: var(--basic-grey-active);
+}
+.navigation-list {
+     list-style: none;
+     background-color: var(--basic-deep-blue);
+     box-shadow: inset 0px -5px 0px var(--basic-night-blue);
+}
+.navigation-item a {
+     color: var(--basic-white);
+}
+.navigation-item a:hover {
+     background-color: var(--basic-night-blue);
+     box-shadow: inset 0px -5px 0px var(--basic-night-blue);
+     color: var(--basic-white);
+}
+.navigation-item a:active {
+     background-color: var(--basic-navblue-active);
+     color: var(--basic-white);
+     opacity: 0.5;
+}
+
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+               /*main-content*/
+
+.menu {
+     background: transparent;
+     font-family: 'Cuprum', Arial, sans-serif;
+}
+.orange-color {
+     background-color: var(--basic-orange);
+}
+
+.blue-color {
+     background-color: var(--basic-light-blue);
+}
+
+.purple-color {
+     background-color: var(--basic-purple);
+}
+
+.green-color {
+     background-color: var(--basic-green-tea);     
+}
+
+.extraorange-color {
+     background-color: var(--basic-extra-orange);
+}
+
+
+.menu-block h3 {
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+color: var(--basic-white);
+}
+
+.menu-block a {
+     font-size: 14px;
+     line-height: 18px;
+     color: var(--basic-white);
+     text-align: center;
+     text-transform: uppercase;
+     background-color: var(--basic-rgb-extra);
+}
+
+.menu-block a:hover {
+     background-color: var(--basic-hover-rgb);
+}
+.menu-block a:active {
+     background-color: var(--basic-through-rgb);
+}
+
+
+/* Стили слайдера*/
+.slide-description {
+     color: var(--basic-white);
+     background-color: #DECDBE; /*временный фон, позже добавим ниже картинку на фон*/
+}
+.slide-description h5 {
+     font-size: 36px;
+line-height: 36px;
+text-transform: uppercase;
+font-weight: bold;
+}
+.slide-description p {
+     font-size: 18px;
+}
+
+.red-button {
+     background-color: var(--basic-red);
+     text-align: center;
+     text-transform: uppercase;
+     color: var(--basic-white);
+}
+
+.red-button-slider {
+     background-color: var(--basic-red);
+     text-align: center;
+     text-transform: uppercase;
+     color: var(--basic-white);
+}
+
+.red-button-slider:hover {
+     background-color: var(--basic-hover-red);
+}
+.red-button-slider:active {
+     background-color: var(--basic-red-active);
+}
+
+
+/*----------------------------------------------------------*/
+/*.hit-products*/
+.hit-products-title {
+     background-color: var(--basic-grey-purple);
+}
+.heading {
+     color: var(--basic-deep-blue);
+     text-transform: uppercase;
+     font-size: 30px;
+     font-weight: normal;
+     font-family: 'Cuprum', Arial, sans-serif;
+     line-height: 30px;
+}
+
+.hit-products-list {
+    list-style: none;
+}
+
+.hit-products-item{     
+border: 1px solid var(--basic-product-border);
+}
+.title-product {
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 20px;
+     color: var(--basic-black);
+     text-align: center;
+}
+.through{ 
+font-weight: bold;
+font-size: 17px;
+line-height: 18px;
+text-align: center;
+text-decoration-line: line-through;
+text-transform: uppercase;
+color: var(--basic-through);
+}
+.registr {
+     text-transform: uppercase;
+}
+
+.arrow-btn {
+
+}
+
+/*-------------------------------------------------------------------*/
+/*.hit-brands*/
+
+.hit-brands-list {
+  list-style: none;
+}
+
+.hit-brands-item {
+     border: 1px solid var(--basic-product-border);
+}
+
+.hit-brands-item a {
+
+}
+
+/*----------------------------------------------------------------------*/
+/*.service-content*/
+
+.service-content {
+     background-color: var(--basic-white-blue);
+     font-family: 'Cuprum', Arial, sans-serif;
+}
+
+.service-content-list {
+     list-style-type: none;
+     border: none;
+
+}
+
+.service-content li {
+     background-color: var(--basic-deep-blue); 
+     /*box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;*/
+}
+
+
+.service-content-item a {
+     background-color: var(--basic-deep-blue);
+     box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+     color: var(--basic-white); 
+     font-weight: bold;
+font-size: 21px;
+line-height: 30px;
+}
+
+.service-content-item a:hover {
+     background-color: var(--basic-night-blue);
+     box-shadow: 0px 1px 0px var(--basic-night-blue), inset 0px 1px 0px var(--basic-hover-delivery); 
+}
+
+.service-content-item a:active {
+     background-color: var(--basic-white);
+     box-shadow: 0px 1px 0px var(--basic-white), inset 0px 1px 0px var(--basic-white);
+     color: var(--basic-deep-blue);
+}
+
+.heading-black {
+     font-size: 30px;
+     font-weight: normal;
+     font-family: 'Cuprum', Arial, sans-serif;
+line-height: 30px;
+color: var(--basic-black);
+text-transform: uppercase;
+}
+
+/*----------------------------------------------------------------------*/
+/*.view-delivery*/
+.view-delivery {
+     background: transparent;
+}
+
+.view-delivery-car-list {
+     list-style: none;
+
+}
+
+.view-delivery-car-item {
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-size: 18px;
+     line-height: 24px;
+}
+
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+                         /*.footer-main*/
+.footer-main {
+     font-family: 'Cuprum', Arail, sans-serif;
+}
+
+.footer-top {
+     background-color: var(--basic-deep-blue);
+}
+
+.footer-logo {
+     background-color: var(--basic-red);
+}
+
+.footer-top p {
+     font-size: 18px;
+     line-height: 24px;
+     color: var(--basic-footer-adress);
+}
+
+.footer-navigation {
+          /*Код расположения*/
+}
+
+.footer-navigation-top-list,
+.footer-navigation-bottom-list
+{
+     list-style-type: none;
+}
+
+.footer-navigation-top-item {
+
+}
+
+.footer-navigation-top-item a {
+     font-size: 18px;
+     line-height: 24px;
+     color: var(--basic-footer-adress);
+}
+
+.footer-navigation-bottom-item {
+     text-align: right;
+
+}
+.footer-navigation-bottom-item a {
+     font-size: 18px;
+     line-height: 24px;
+     color: var(--basic-brulee);
+}
+
+/*---------------------------------------------------------------------------*/
+                         /*.footer-bottom*/
+
+.footer-bottom {
+     background-color: var(--basic-night-blue);
+}
+
+.footer-bottom p {
+    
+     font-size: 16px;
+     line-height: 18px;
+     color: var(--basic-white);
+     
+}
+
+.footer-bottom-icon {
+ /* Код расположения*/
+}
+
+.footer-bottom-icon a {
+     color: var(--basic-white);
+     background: linear-gradient(0deg, var(--basic-icon-fon), var(--basic-icon-fon));
+}
+
+.color-brulle {
+     color: var(--basic-brulee);
+}
+
