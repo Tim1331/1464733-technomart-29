@@ -89,7 +89,8 @@
        --basic-product-border: #EAEAEA;
        --basic-footer-adress: #F3F7F9;
        --basic-hover-delivery: #405069;
-
+       --basic-section-fon: rgba(0, 0, 0, 0.0001);
+       --basic-linen: #F7F3EC;
   }
 /* Global*/
 body {
@@ -98,7 +99,7 @@ body {
      padding: 0;
      font-size: 13px;
      line-height: 24px;
-     font-family: 'PT Sans', Verdana, sans-serif;
+     font-family: 'PT Sans', Arial, sans-serif;
      font-style: normal;
      font-weight: normal;
      color: var(--basic-black);
@@ -350,6 +351,7 @@ color: var(--basic-through);
 }
 .registr {
      text-transform: uppercase;
+     font-family: 'PT Sans', Arial, sans-serif;
 }
 
 .arrow-btn {
@@ -516,3 +518,90 @@ text-transform: uppercase;
      color: var(--basic-brulee);
 }
 
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
+                                    /* Стили для catalog.html*/
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
+ 
+/*----------------------------------Cтили для .header-bootom--------------------------------------*/
+
+.block-btn-bottom p {
+     background-color: var(--basic-white);
+}    
+
+.user {
+     color: var(--basic-black);
+     font-size: 21px;
+     line-height: 21px;
+     text-align: center;
+}
+
+.btn-list li:first-child {
+     list-style-type: none;
+}
+.btn-item a {
+     color: var(--basic-deep-blue);
+     font-size: 16px;
+     line-height: 18px;
+}
+
+/*----------------------------------Cтили для .main--------------------------------------*/
+
+.bg {
+     background-color: var(--basic-white-blue);
+}
+
+.beard-list {
+     list-style-type: none;
+}
+.beard-item a {
+     font-size: 13px;
+     line-height: 18px;
+     color: var(--basic-black);
+     text-transform: var(--basic-black);
+}
+/*--------------------------------------------------------------------------------------*/
+.title-fon {
+     background-color: var(--basic-linen);
+     text-transform: uppercase;
+     color: var(--basic-black-);
+     font-size: 13px;
+     line-height: 18px;
+}
+/*--------------------------------------------------------------------------------------*/
+.header-sort {
+     background-color: var(--basic-linen);
+}
+.sort-list {
+     list-style-type: none;
+     /*background-repeat-x background-position* черта красные точки*/
+}
+.sort-list li:first-child {
+     color: var(--basic-black);
+     text-transform: uppercase;
+     opacity: 1;
+}
+.sort-list li {
+     opacity: 0.3;
+     text-transform: uppercase;
+}
+.icon-list {
+     list-style-type: none;
+}
+/*---------------------------------------------------------------------------------------*/
+.choise-products {
+     background-color: transparent;
+}
+/*---------------------------------------------------------------------------------------*/
+.pagination-list {
+   list-style-type: none;
+}
+.pagination-list li {
+     font-size: 13px;
+     line-height: 18px;
+     text-align: center;
+}
+.pagination-list a {
+     color: var(--basic-black);
+}
