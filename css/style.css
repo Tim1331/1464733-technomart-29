@@ -12,6 +12,7 @@
          url('../fonts/pt-sans-v12-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/pt-sans-v12-latin_cyrillic-regular.svg#PTSans') format('svg'); /* Legacy iOS */
   }
+
   /* pt-sans-700 - latin_cyrillic */
   @font-face {
     font-family: 'PT Sans';
@@ -287,24 +288,24 @@ font-weight: bold;
      font-size: 18px;
 }
 
-.red-button {
+.button {
      background-color: var(--basic-red);
      text-align: center;
      text-transform: uppercase;
      color: var(--basic-white);
 }
 
-.red-button-slider {
+.button-slider {
      background-color: var(--basic-red);
      text-align: center;
      text-transform: uppercase;
      color: var(--basic-white);
 }
 
-.red-button-slider:hover {
+.button-slider:hover {
      background-color: var(--basic-hover-red);
 }
-.red-button-slider:active {
+.button-slider:active {
      background-color: var(--basic-red-active);
 }
 
@@ -329,6 +330,7 @@ font-weight: bold;
 
 .hit-products-item{     
 border: 1px solid var(--basic-product-border);
+text-align: center;
 }
 .title-product {
      font-weight: bold;
@@ -370,26 +372,26 @@ color: var(--basic-through);
 }
 
 /*----------------------------------------------------------------------*/
-/*.service-content*/
+/*.service*/
 
-.service-content {
+.service {
      background-color: var(--basic-white-blue);
      font-family: 'Cuprum', Arial, sans-serif;
 }
 
-.service-content-list {
+.service-list {
      list-style-type: none;
      border: none;
 
 }
 
-.service-content li {
+.service li {
      background-color: var(--basic-deep-blue); 
      /*box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;*/
 }
 
 
-.service-content-item a {
+.service-item a {
      background-color: var(--basic-deep-blue);
      box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
      color: var(--basic-white); 
@@ -398,12 +400,12 @@ font-size: 21px;
 line-height: 30px;
 }
 
-.service-content-item a:hover {
+.service-item a:hover {
      background-color: var(--basic-night-blue);
      box-shadow: 0px 1px 0px var(--basic-night-blue), inset 0px 1px 0px var(--basic-hover-delivery); 
 }
 
-.service-content-item a:active {
+.service-item a:active {
      background-color: var(--basic-white);
      box-shadow: 0px 1px 0px var(--basic-white), inset 0px 1px 0px var(--basic-white);
      color: var(--basic-deep-blue);
@@ -420,16 +422,16 @@ text-transform: uppercase;
 
 /*----------------------------------------------------------------------*/
 /*.view-delivery*/
-.view-delivery {
+.delivery {
      background: transparent;
 }
 
-.view-delivery-car-list {
+.delivery-car-list {
      list-style: none;
 
 }
 
-.view-delivery-car-item {
+.delivery-car-item {
      font-family: 'Cuprum', Arial, sans-serif;
      font-size: 18px;
      line-height: 24px;
