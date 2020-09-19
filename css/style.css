@@ -66,7 +66,7 @@
        --basic-blue-active: #161D29;
        --basic-navblue-active: #1D2739;
        --basic-green-active: #63A63E;
-       --basic-grey-active: #C5C5C5;
+       --basic-greylight: #C5C5C5;
        --basic-hover-rgb: rgba(197, 197, 197, 0.3);
        --basic-sale-active: #518534;
        --basic-green-hover: #5FBB2D;
@@ -155,16 +155,17 @@ img {
 }
 .btn-order{
      background-color: var(--basic-green);
+     color: var(--basic-white);
 }
 .btn-order:hover{
      background-color: var(--basic-green-hover);
+     color: var(--basic-white);
 }
 .btn-order:active{
      background-color: var(--basic-green-active);
-}
-.btn-order:focus{
      color: var(--basic-rgb);
 }
+
 /*------------------------------------------------------*/
 .header-bottom-title {
      color: var(--basic-red);
@@ -199,7 +200,7 @@ img {
      color: var(--basic-red);
 }
 .header-bottom-btn:active {
-     color: var(--basic-grey-active);
+     color: var(--basic-greylight);
 }
 .navigation-list {
      list-style: none;
@@ -536,6 +537,9 @@ text-transform: uppercase;
      line-height: 21px;
      text-align: center;
 }
+.user:active {
+     color: var(--basic-greylight);
+}
 
 .btn-list li:first-child {
      list-style-type: none;
@@ -544,6 +548,12 @@ text-transform: uppercase;
      color: var(--basic-deep-blue);
      font-size: 16px;
      line-height: 18px;
+}
+.btn-item a:hover {
+     color: var(--basic-red);
+}
+.btn-item a:active {
+     color: var(--basic-greylight);
 }
 
 /*----------------------------------Cтили для .main--------------------------------------*/
