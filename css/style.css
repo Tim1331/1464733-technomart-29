@@ -122,7 +122,6 @@ img {
 /*.header-main*/
 .header-main {
      background-color: var(--basic-white-blue);  
-     font-family: 'Cuprum', Arial, sans-serif;
 }
 .header-top{
      background-color: var(--basic-night-blue);
@@ -148,12 +147,14 @@ img {
 .button-item a {
      font-size: 18px;
      color: var(--basic-white);
+     font-family: 'Cuprum', Arial, sans-serif;
 }
 .button-item a:active {
      background-color: var(--basic-navblue-active);
      color: var(--basic-rgb);
 }
 .btn-order{
+     font-family: 'Cuprum', Arial, sans-serif;
      background-color: var(--basic-green);
      color: var(--basic-white);
 }
@@ -170,9 +171,9 @@ img {
 .header-bottom-title {
      color: var(--basic-red);
      font-style: italic;
-     font-weight: normal;
      font-size: 16px;
      line-height: 23px;
+     font-family: 'Cuprum', Arial, sans-serif;
 }
 .header-bottom-contact {
      font-weight: bold;
@@ -182,9 +183,14 @@ img {
 .header-bottom-tel {
      color: var(--basic-red);
      border: 3px solid var(--basic-white);
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-size: 21px;
+     line-height: 30px;
 }
 .header-bottom-addres {
+     font-family: 'Cuprum', Arial, sans-serif;
      font-size: 14px;
+     line-height: 24px;
      color: var(--basic-deep-blue);
 }
 .block-btn-bottom {
@@ -195,6 +201,9 @@ img {
      background-color: var(--basic-white);
      color: var(--basic-black);
      text-align: center;
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-size: 21px;
+     line-height: 21px;
 }
 .header-bottom-btn:hover {
      color: var(--basic-red);
@@ -209,6 +218,8 @@ img {
 }
 .navigation-item a {
      color: var(--basic-white);
+     font-size: 18px;
+     font-family: 'Cuprum', Arial, sans-serif;
 }
 .navigation-item a:hover {
      background-color: var(--basic-night-blue);
@@ -227,7 +238,7 @@ img {
 
 .menu {
      background: transparent;
-     font-family: 'Cuprum', Arial, sans-serif;
+     
 }
 .orange-color {
      background-color: var(--basic-orange);
@@ -251,16 +262,17 @@ img {
 
 
 .menu-block h3 {
-font-style: normal;
 font-weight: bold;
 font-size: 24px;
 line-height: 30px;
+font-family: 'Cuprum', Arial, sans-serif;
 color: var(--basic-white);
 }
 
 .menu-block a {
      font-size: 14px;
      line-height: 18px;
+     font-family: 'Cuprum', Arial, sans-serif;
      color: var(--basic-white);
      text-align: center;
      text-transform: uppercase;
@@ -282,12 +294,14 @@ color: var(--basic-white);
 }
 .slide-description h5 {
      font-size: 36px;
-line-height: 36px;
-text-transform: uppercase;
-font-weight: bold;
+     line-height: 36px;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-family: 'Cuprum', Arial, sans-serif;
 }
 .slide-description p {
      font-size: 18px;
+     font-family: 'Cuprum', Arial, sans-serif;
 }
 
 .button {
@@ -295,6 +309,17 @@ font-weight: bold;
      text-align: center;
      text-transform: uppercase;
      color: var(--basic-white);
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-size: 14px;
+     line-height: 18px;
+}
+.arrow-btn {
+     background-color: var(--basic-red);
+     text-align: center;
+     text-transform: uppercase;
+     color: var(--basic-white);
+     font-size: 17px;
+     line-height: 18px; 
 }
 
 .button-slider {
@@ -338,6 +363,7 @@ text-align: center;
      font-weight: bold;
      font-size: 18px;
      line-height: 20px;
+     font-family: 'PT Sans', Arial, sans-serif;
      color: var(--basic-black);
      text-align: center;
 }
@@ -350,10 +376,7 @@ text-decoration-line: line-through;
 text-transform: uppercase;
 color: var(--basic-through);
 }
-.registr {
-     text-transform: uppercase;
-     font-family: 'PT Sans', Arial, sans-serif;
-}
+
 
 .arrow-btn {
 
@@ -379,7 +402,6 @@ color: var(--basic-through);
 
 .service {
      background-color: var(--basic-white-blue);
-     font-family: 'Cuprum', Arial, sans-serif;
 }
 
 .service-list {
@@ -399,8 +421,9 @@ color: var(--basic-through);
      box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
      color: var(--basic-white); 
      font-weight: bold;
-font-size: 21px;
-line-height: 30px;
+     font-size: 21px;
+     line-height: 30px;
+     font-family: 'Cuprum', Arial, sans-serif;
 }
 
 .service-item a:hover {
@@ -444,7 +467,7 @@ text-transform: uppercase;
 /*-----------------------------------------------------------------------*/
                          /*.footer-main*/
 .footer-main {
-     font-family: 'Cuprum', Arail, sans-serif;
+    
 }
 
 .footer-top {
@@ -458,6 +481,7 @@ text-transform: uppercase;
 .footer-top p {
      font-size: 18px;
      line-height: 24px;
+     font-family: 'Cuprum', Arail, sans-serif;
      color: var(--basic-footer-adress);
 }
 
@@ -478,6 +502,7 @@ text-transform: uppercase;
 .footer-navigation-top-item a {
      font-size: 18px;
      line-height: 24px;
+     font-family: 'Cuprum', Arail, sans-serif;
      color: var(--basic-footer-adress);
 }
 
@@ -488,6 +513,7 @@ text-transform: uppercase;
 .footer-navigation-bottom-item a {
      font-size: 18px;
      line-height: 24px;
+     font-family: 'Cuprum', Arail, sans-serif;
      color: var(--basic-brulee);
 }
 
@@ -499,9 +525,9 @@ text-transform: uppercase;
 }
 
 .footer-bottom p {
-    
      font-size: 16px;
      line-height: 18px;
+     font-family: 'Cuprum', Arail, sans-serif;
      color: var(--basic-white);
      
 }
@@ -536,6 +562,7 @@ text-transform: uppercase;
      font-size: 21px;
      line-height: 21px;
      text-align: center;
+     font-family: 'Cuprum', Arial, sans-serif;
 }
 .user:active {
      color: var(--basic-greylight);
@@ -548,6 +575,7 @@ text-transform: uppercase;
      color: var(--basic-deep-blue);
      font-size: 16px;
      line-height: 18px;
+     font-family: 'Cuprum', Arial, sans-serif;
 }
 .btn-item a:hover {
      color: var(--basic-red);
@@ -565,11 +593,14 @@ text-transform: uppercase;
 .beard-list {
      list-style-type: none;
 }
+.beard-item {
+     text-transform: uppercase;   
+}
 .beard-item a {
      font-size: 13px;
      line-height: 18px;
      color: var(--basic-black);
-     text-transform: var(--basic-black);
+     text-transform: uppercase;
 }
 /*--------------------------------------------------------------------------------------*/
 .title-fon {
