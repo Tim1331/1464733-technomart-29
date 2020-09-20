@@ -353,6 +353,7 @@ color: var(--basic-white);
 
 .hit-products-list {
     list-style: none;
+    
 }
 
 .hit-products-item{     
@@ -520,6 +521,10 @@ text-transform: uppercase;
 /*---------------------------------------------------------------------------*/
                          /*.footer-bottom*/
 
+.footer-logo {
+     background-color: var(--basic-red);
+}
+
 .footer-bottom {
      background-color: var(--basic-night-blue);
 }
@@ -556,7 +561,9 @@ text-transform: uppercase;
 .block-btn-bottom p {
      background-color: var(--basic-white);
 }    
-
+.logo {
+     background-color: var(--basic-red);
+}
 .user {
      color: var(--basic-black);
      font-size: 21px;
