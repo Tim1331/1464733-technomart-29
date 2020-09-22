@@ -616,8 +616,32 @@ text-transform: uppercase;
      line-height: 18px;
 }
 /*--------------------------------------------------------------------------------------*/
+.header-title{
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-style: italic;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 23px;
+     color: var(--basic-red);
+}
+.header-addres{
+     font-family: 'Cuprum', Arial, san-serif;
+     font-size: 14px;
+     line-height: 24px;
+     text-align: center;
+     color: var(--basic-deep-blue);
+     }
 .header-sort {
      background-color: var(--basic-linen);
+}
+
+.header-tel {
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 21px;
+     line-height: 30px;
+     color: var(--basic-red);
 }
 .sort-list {
      list-style-type: none;
