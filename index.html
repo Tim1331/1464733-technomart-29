@@ -53,61 +53,67 @@
     <main class="page-main main-content">
 		<h1 class="hidden container">Интернет-магазин Техномарт</h1>
 		<section class="menu">
-			<div class="container">
-				<h2 class="hidden placement">Меню-плитка и слайдер</h2>
-				<div class="menu-block mateotal">
-					<h3>Материалы</h3>
-					<a href="">на любой вкус</a>
-				</div>
-				<div class="menu-block tool">
-					<h3>Инструмент</h3>
-					<a href="">на все случаи</a>
-				</div>
-				<div class="menu-block technics">
-					<h3>Техника</h3>
-					<a href="">для стройки</a>
-				</div>
-				<div class="menu-block discount">
-					<h3>Скидка 50%</h3>
-					<a href="">на 350 товаров</a>
-				</div>
-				<div class="menu-block delivery-color">
-					<h3>Доставка</h3>
-					<a href="">бесплатно</a>
-				</div>
-				<!-- Пропишем ниже разметку слайдера строки 70-91 -->			
-				<div class="menu-block-slider">
-					<div class="item">
-						<img src="img/perforators.jpg" alt="ПЕРФОРАТОРЫ" width="620" height="266">
-						<div class="slide-description">
-							<h5>перфораторы</h5>
-							<p>Настоящие мужские игрушки</p>
+				<div class="container">
+					<h2 class="hidden placement">Меню-плитка и слайдер</h2>
+					<div class="menu-blocks">
+						<div class="menu-block mateotal">
+							<h3>Материалы</h3>
+							<a href="">на любой вкус</a>
 						</div>
-					</div>	
-					<div class="item">
-						<img src="img/drill.jpg" alt="ДРЕЛИ" width="620" height="266">
-						<div class="slide-description">
-							<h5>дрели</h5>
-							<p>Соседям на радость!</p>
+						<div class="menu-block tool">
+							<h3>Инструмент</h3>
+							<a href="">на все случаи</a>
 						</div>
-					</div>	
-					<a class="prev"></a>
-					<a class="next"></a>
+						<div class="menu-block technics">
+							<h3>Техника</h3>
+							<a href="">для стройки</a>
+						</div>
+						<div class="menu-block discount">
+							<h3>Скидка 50%</h3>
+							<a href="">на 350 товаров</a>
+						</div>
+						<div class="menu-block delivery-color">
+							<h3>Доставка</h3>
+							<a href="">бесплатно</a>
+						</div>
+					</div>
+				
+					<!-- Пропишем ниже разметку слайдера строки 70-91 -->			
+					<div class="menu-block-slider">
+							<div class="item">
+								<img src="img/perforators.jpg" alt="ПЕРФОРАТОРЫ" width="620" height="266">
+								<div class="slide-description">
+									<h5>перфораторы</h5>
+									<p>Настоящие мужские игрушки</p>
+								</div>
+							</div>	
+							<div class="item">
+								<img src="img/drill.jpg" alt="ДРЕЛИ" width="620" height="266">
+								<div class="slide-description">
+									<h5>дрели</h5>
+									<p>Соседям на радость!</p>
+								</div>
+							</div>	
+							<div class="slider-arrow">
+								<a href=""></a>
+								<a href=""></a>
+								Блок для стрелочек!
+							</div>
+							<div class="slider-catalog">
+								<a class=" button button-slider" href="catalog.html">открыть каталог</a>
+								<span class="point"><!--Здесь будет точка слайдера--></span>
+								<span class="point"><!--Здесь будет точка слайдера--></span>
+							</div>
+					</div>
 				</div>
-				<div class="slider-catalog">
-					<a class=" button button-slider" href="catalog.html">открыть каталог</a>
-					<span class="point"><!--Здесь будет точка слайдера--></span>
-					<span class="point"><!--Здесь будет точка слайдера--></span>
-				</div>
-			</div>
-		</section>
+			</section>
 		<section class="products">
 			<div class="container">
-				<div class="roducts-title">
+				<div class="p roducts-title">
 					<h2 class="heading">популярные товары:</h2>
 					<a class="button" href="">все популярные товары</a>
-				</div>перфораторы
-				<ul class="products-list">
+				</div>
+				<ul class="products-list">              
 					<li class="products-item">
 						<img src="img/bfg-9000.jpg" alt="Перфоратор BOSCH BFG 9000" width="184" height="164">
 						<p class="title-product">Перфоратор BOSCH BFG 9000</p>
@@ -128,7 +134,7 @@
 					</li>
 					<li class="products-item">
 						<img src="img/bfg-2000.jpg" alt="Перфоратор BOSCH BFG 2000" width="127" height="112">
-						<p>перфоратор BOSCH BFG 2000</p>
+						<p class="title-product">Перфоратор BOSCH BFG 2000</p>
 						<p>&nbsp;</p>
 						<a class="arrow-btn" href="">12500</a>
 					</li>
@@ -175,7 +181,7 @@
 					</li>
 					<li class="brands-item">
 						<a href="">
-							<img src="img/aeg.jpg" alt="AEG" width="151" height="96">
+							<img src="img/aeg.jpg" alt="AEG" width="151" height="96">            
 						</a>
 					</li>
 					<li class="brands-item">
@@ -188,28 +194,30 @@
 		</section>
 		<section class="service">
 			<div class="container">
-				<h2 class="heading-black">сервисы</h2>
-				<p>
-					Хороший интернет-магазин отличается от плохого не только ценами!
-					Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
-				</p>
-				<h2 class="heading">доставка</h2>
-				<p>
-					Мы с удовольствием доставим ваш товар прямо 
-					к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, 
-					поднимая его на ваш этаж!
-				</p>
-				<ul class="service-list">
-					<li class="service-item">
-						<a class="delivery-link" href="">Доставка</a>
-					</li>
-					<li class="service-item">
-						<a href="">Гарантия</a>
-					</li>
-					<li class="service-item">
-						<a href="">Кредит</a>
-					</li>
-				</ul>	
+				<div class="service-block">
+					<h2 class="heading-black">сервисы</h2>
+					<p>
+						Хороший интернет-магазин отличается от плохого не только ценами!
+						Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+					</p>
+					<h2 class="heading">доставка</h2>
+					<p>
+						Мы с удовольствием доставим ваш товар прямо 
+						к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, 
+						поднимая его на ваш этаж!
+					</p>
+					<ul class="service-list">
+						<li class="service-item">
+							<a class="delivery-link" href="">Доставка</a>
+						</li>
+						<li class="service-item">
+							<a href="">Гарантия</a>
+						</li>
+						<li class="service-item">
+							<a href="">Кредит</a>
+						</li>
+					</ul>
+				</div>	
 			</div>
 		</section>
 		<section class="delivery">
