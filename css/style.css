@@ -133,7 +133,6 @@ img {
      padding: 0 10px;
 }
 .hidden {
-     grid-column: 1 / -1;
 }
 
 /*.header-main*/
@@ -143,14 +142,54 @@ img {
 .header-top{
      background-color: var(--basic-night-blue);
 }
-.header-top-content {
- 
-}
-.header-top div{
+.header-top-grid,
+.header-bottom-grid {
      display: grid;
-     grid-template-rows: min-content auto;
-     grid-template-columns: 1fr 1fr;
 }
+
+.header-top-grid {
+     grid-template-columns: 500px 430px;
+     column-gap: 10px;
+}
+/* Координаты верхней части шапки*/
+.header-top-content {
+     grid-column: 1 / 2;
+}
+
+.button-list {
+     grid-column: 2 / 3;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     justify-self: end;
+}
+/*-----------------------------------------*/
+
+/* Координаты нижней части шапки*/
+.header-bottom-grid {
+     grid-template-columns: 300px 300px 300px;
+     column-gap: 20px;
+}
+.header-title {
+     grid-column: 1 / 2;
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-style: italic;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 23px;
+     color: var(--basic-red);
+}
+.header-contact {
+     grid-column: 2 / 3;
+}
+.block-btn {
+     grid-column: 3 / 4 ;
+     line-height: 21px;
+}
+.navigation-main {
+     grid-column: 1 / -1;
+}
+/*-----------------------------------------*/
 
 .header-logo {
      background-color: var(--basic-red);
@@ -166,14 +205,8 @@ img {
 .header-top-links {
      font-size:  18px;
      background-color: transparent;
-     justify-self: end;
 }
-.button-list {
-     margin: 0;
-     padding: 0;
-     list-style: none;
-     grid-column: 1/-1;
-}
+
 .button-item a {
      font-size: 18px;
      color: var(--basic-white);
@@ -198,10 +231,6 @@ img {
 }
 
 /*------------------------------------------------------*/
-.header-bottom div {
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
-}
 
 .header-bottom-title {
      color: var(--basic-red);
@@ -228,10 +257,7 @@ img {
      line-height: 24px;
      color: var(--basic-deep-blue);
 }
-.block-btn {
 
-     line-height: 21px;
-}
 .header-btn {
      background-color: var(--basic-white);
      color: var(--basic-black);
@@ -240,12 +266,7 @@ img {
      font-size: 21px;
      line-height: 21px;
 }
-.header-btn:first-child {
-     grid-column: 2/3;
-}
-.header-btn:last-child {
-     grid-column: 3/4;
-}
+
 .header-btn:hover {
      color: var(--basic-red);
 }
@@ -253,9 +274,7 @@ img {
      color: var(--basic-greylight);
 }
 
-.navigation-main {
-    grid-column: 1/-1;
-}
+
 .navigation-list {
      list-style: none;
      background-color: var(--basic-deep-blue);
@@ -672,12 +691,6 @@ text-transform: uppercase;
      background-color: var(--basic-night-blue);
 }
 
-.footer-bottom p {
-    
-     
-}
-
-
 .footer-top-grid, 
 .footer-bottom-grid {
  display: grid;
@@ -798,14 +811,7 @@ text-transform: uppercase;
      line-height: 18px;
 }
 /*--------------------------------------------------------------------------------------*/
-.header-title{
-     font-family: 'Cuprum', Arial, sans-serif;
-     font-style: italic;
-     font-weight: normal;
-     font-size: 16px;
-     line-height: 23px;
-     color: var(--basic-red);
-}
+
 .header-addres{
      font-family: 'Cuprum', Arial, san-serif;
      font-size: 14px;
