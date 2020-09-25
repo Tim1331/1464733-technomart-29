@@ -802,9 +802,29 @@ text-transform: uppercase;
      color: var(--basic-black);
      text-transform: uppercase;
 }
+
+.filter-sort-grid {
+     display: grid;
+     grid-template-columns: 220px 700px;
+     grid-template-rows: 37px min-content;
+     column-gap: 20px;
+}
+.filter {
+     background-color: var(--basic-linen);
+     grid-column: 1 / 2;
+}
+.header-sort {
+     grid-column: 2 / 3;
+     grod-row: 1 / 2;
+}
+
+.choise-products {
+     background-color: transparent;
+     grid-column: 2 / 3;
+     grid-row: 2 / 3;
+}
 /*--------------------------------------------------------------------------------------*/
 .title-fon {
-     background-color: var(--basic-linen);
      text-transform: uppercase;
      color: var(--basic-black-);
      font-size: 13px;
@@ -818,10 +838,7 @@ text-transform: uppercase;
      line-height: 24px;
      color: var(--basic-deep-blue);
      }
-.header-addres, .header-tel {
-     grid-column: 1/-1;
-     justify-self: center;
-}
+
 .header-sort {
      background-color: var(--basic-linen);
 }
@@ -852,12 +869,10 @@ text-transform: uppercase;
      list-style-type: none;
 }
 /*---------------------------------------------------------------------------------------*/
-.choise-products {
-     background-color: transparent;
-}
+
 /*---------------------------------------------------------------------------------------*/
 .pagination-list {
-   list-style-type: none;
+   list-style-type: none; 
 }
 .pagination-list li {
      font-size: 13px;
@@ -866,4 +881,12 @@ text-transform: uppercase;
 }
 .pagination-list a {
      color: var(--basic-black);
+}
+/*------------------------------------------------------------------------------------------*/
+.info {
+     background-color: var(--basic-white-blue);
+}
+
+.placement {
+     text-align: center;
 }
