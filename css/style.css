@@ -162,12 +162,12 @@ img {
 
 .header-main {
      background-color: var(--basic-white-blue);
-     margin-bottom: -22px;
+     margin-bottom: -46px;
 }
 
 .header-top {
      background-color: var(--basic-night-blue);
-     margin-top: -17px;
+     margin-top: -20px;
      height: 42px;
 }
 
@@ -187,7 +187,7 @@ img {
 .header-top-flex {
      display: flex;
      justify-content: space-between;
-     margin-top: -40px;
+     margin-top: -47px;
 }
 
 /* Координаты верхней части шапки*/
@@ -565,7 +565,7 @@ img {
 
 .menu-block-slider {
      position: absolute;
-     top: 491px;
+     top: 504px;
 }
 
 .slide-description {
@@ -794,6 +794,10 @@ img {
 /*-------------------------------------------------------------------*/
 
 /*.brands*/
+
+.brands {
+     margin-bottom: 50px;
+}
 
 .brands-list {
      list-style: none;
