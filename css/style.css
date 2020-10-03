@@ -105,7 +105,7 @@
      --basic-linen: #F7F3EC;
 }
 
-1057
+
 /* Global*/
 
 body {
@@ -156,19 +156,28 @@ img {
 }
 
 .hidden {
-     visibility: hidden;
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
 }
 
 /*.header-main*/
 
 .header-main {
      background-color: var(--basic-white-blue);
-     margin-bottom: -46px;
+     margin-bottom: 59px;
 }
 
 .header-top {
      background-color: var(--basic-night-blue);
-     margin-top: -20px;
+     /*margin-top: -20px;*/
      height: 42px;
 }
 
@@ -188,7 +197,7 @@ img {
 .header-top-flex {
      display: flex;
      justify-content: space-between;
-     margin-top: -47px;
+     /*margin-top: -47px;*/
 }
 
 /* Координаты верхней части шапки*/
@@ -350,13 +359,14 @@ img {
 /*------------------------------------------------------*/
 
 .header-bottom {
+     padding-top: 46px;
      padding-bottom: 48px;
 }
 
 .header-bottom-flex {
      display: flex;
      justify-content: space-between;
-     margin-top: -40px;
+     /*margin-top: -40px;*/
 }
 
 .header-bottom-title {
@@ -482,7 +492,7 @@ img {
 /*main-content*/
 
 .main-content {
-     margin-bottom: -16px;
+     /*margin-bottom: -16px;*/
 }
 
 .menu {
@@ -596,7 +606,7 @@ img {
 
 .menu-block-slider {
      position: absolute;
-     top: 504px;
+     top: 522px;
 }
 
 .slide-description {
@@ -678,20 +688,23 @@ img {
 
 .slider-catalog {
      position: relative;
-     bottom: 397px;
+     bottom: 387px;
 }
 
 .slider-arrow {
      outline: 2px solid #ffffff;
      outline-offset: -2px;
      position: relative;
-     bottom: 420px;
+     bottom: 423px;
      height: 40px;
 }
 
 /*----------------------------------------------------------*/
 
 /*.products*/
+.products {
+     margin-bottom: 59px;
+}
 
 .products-title {
      background-color: var(--basic-grey-purple);
@@ -890,7 +903,7 @@ img {
 /*.brands*/
 
 .brands {
-     margin-bottom: 50px;
+     margin-bottom: 59px;
 }
 
 .brands-list {
@@ -1164,7 +1177,6 @@ img {
      background-color: var(--basic-deep-blue);
      margin-bottom: -17px;
      height: 193px;
-     margin-bottom: -20px;
 }
 
 .footer-logo {
@@ -1175,7 +1187,6 @@ img {
      padding-top: 20px;
      width: 220px;
      height: 48px;
-     margin: -3px;
 }
 
 .footer-top p {
@@ -1505,8 +1516,7 @@ img {
 }
 
 .placement {
-     margin-bottom: -24px;
-}
+    /* margin-bottom: -24px;*/ }
 
 .map-block {
      padding: 0;
