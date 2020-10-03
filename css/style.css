@@ -172,7 +172,7 @@ img {
 
 .header-main {
      background-color: var(--basic-white-blue);
-     margin-bottom: 59px;
+     margin-bottom: 0;
 }
 
 .header-top {
@@ -197,7 +197,6 @@ img {
 .header-top-flex {
      display: flex;
      justify-content: space-between;
-     /*margin-top: -47px;*/
 }
 
 /* Координаты верхней части шапки*/
@@ -208,11 +207,11 @@ img {
 }
 
 .logo {
-     display: inline-block;
+     display: block;
      width: 220px;
      height: 47px;
      background-color: var(--basic-red);
-     box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
+     box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
 }
 
 .logo img {
@@ -247,7 +246,7 @@ img {
 .button-item a {
      width: inherit;
      height: 33px;
-     display: inline-block;
+     display: block;
      padding-top: 9px;
      font-size: 18px;
      text-align: center;
@@ -274,7 +273,7 @@ img {
      color: var(--basic-red);
      width: 318px;
      padding-left: 28px;
-     margin-top: 0px;
+     margin-top: 0;
 }
 
 .header-contact {
@@ -289,7 +288,7 @@ img {
      font-size: 21px;
      line-height: 30px;
      color: var(--basic-red);
-     display: inline-block;
+     display: block;
      border: 3px solid var(--basic-white);
      width: 182px;
      padding-left: 74px;
@@ -303,16 +302,24 @@ img {
      line-height: 24px;
      color: var(--basic-deep-blue);
      text-align: center;
-     margin-top: 0px;
+     margin-top: 0;
 }
 
 .block-btn {
      width: 283px;
      /* grid-column: 3 / 4 ;*/
      line-height: 21px;
-     padding-left: 69px;
      display: flex;
+     flex-direction: column;
      align-items: flex-start;
+}
+.btn-item {
+     padding-right: 22px;
+}
+.btn-list {
+     display: flex;
+     justify-content: space-between;
+     padding: 0;
 }
 
 .header-btn:first-child {
@@ -366,7 +373,7 @@ img {
 .header-bottom-flex {
      display: flex;
      justify-content: space-between;
-     /*margin-top: -40px;*/
+     flex-wrap: wrap;
 }
 
 .header-bottom-title {
@@ -422,8 +429,8 @@ img {
 .navigation-list {
      list-style: none;
      background-color: var(--basic-deep-blue);
-     box-shadow: inset 0px -5px 0px var(--basic-night-blue);
-     margin-top: 0px;
+     box-shadow: inset 0 -5px 0 var(--basic-night-blue);
+     margin-top: 0;
      padding: 0;
      height: 60px;
 }
@@ -464,7 +471,7 @@ img {
 }
 
 .navigation-item a {
-     display: inline-block;
+     display: block;
      padding-top: 16px;
      padding-bottom: 20px;
      text-align: center;
@@ -475,7 +482,7 @@ img {
 
 .navigation-item a:hover {
      background-color: var(--basic-night-blue);
-     box-shadow: inset 0px -5px 0px var(--basic-night-blue);
+     box-shadow: inset 0 -5px 0 var(--basic-night-blue);
      color: var(--basic-white);
 }
 
@@ -492,7 +499,7 @@ img {
 /*main-content*/
 
 .main-content {
-     /*margin-bottom: -16px;*/
+     padding-top: 21px;
 }
 
 .menu {
@@ -527,6 +534,7 @@ img {
      grid-template-rows: 123px 123px 123px;
      gap: 20px;
      align-content: start;
+     margin-top: 39px;
      margin-bottom: 59px;
 }
 
@@ -549,7 +557,7 @@ img {
      text-align: center;
      text-transform: uppercase;
      background-color: var(--basic-rgb-extra);
-     display: inline-block;
+     display: block;
      margin-left: 23px;
      margin-bottom: 21px;
      padding-top: 10px;
@@ -672,7 +680,7 @@ img {
      text-transform: uppercase;
      color: var(--basic-white);
      width: 192px;
-     display: inline-block;
+     display: block;
      margin-left: 24px;
      padding-top: 11px;
      padding-bottom: 9px;
@@ -739,7 +747,7 @@ img {
      font-size: 14px;
      line-height: 18px;
      align-self: center;
-     display: inline-block;
+     display: block;
      width: 192px;
      padding-top: 11px;
      padding-bottom: 9px;
@@ -749,9 +757,10 @@ img {
 
 .products-list {
      list-style: none;
-     padding: 0px;
-     margin: 0px;
+     padding: 0;
+     margin: 0;
      display: flex;
+     flex-wrap: wrap;
      justify-content: space-between;
 }
 
@@ -908,8 +917,8 @@ img {
 
 .brands-list {
      list-style: none;
-     margin: 0px;
-     padding: 0px;
+     margin: 0;
+     padding: 0;
      display: flex;
      justify-content: space-between;
      flex-wrap: wrap;
@@ -990,25 +999,25 @@ img {
 
 .service-item a {
      background-color: var(--basic-deep-blue);
-     box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+     box-shadow: 0 1px 0 #293449, inset 0 1px 0 #405069;
      color: var(--basic-white);
      font-weight: bold;
      font-size: 21px;
      line-height: 30px;
      font-family: 'Cuprum', Arial, sans-serif;
-     display: inline-block;
+     display: block;
      width: 260px;
      height: 60px;
 }
 
 .service-item a:hover {
      background-color: var(--basic-night-blue);
-     box-shadow: 0px 1px 0px var(--basic-night-blue), inset 0px 1px 0px var(--basic-hover-delivery);
+     box-shadow: 0 1px 0 var(--basic-night-blue), inset 0 1px 0 var(--basic-hover-delivery);
 }
 
 .service-item a:active {
      background-color: var(--basic-white);
-     box-shadow: 0px 1px 0px var(--basic-white), inset 0px 1px 0px var(--basic-white);
+     box-shadow: 0 1px 0 var(--basic-white), inset 0 1px 0 var(--basic-white);
      color: var(--basic-deep-blue);
 }
 
@@ -1029,10 +1038,10 @@ img {
      line-height: 30px;
      color: var(--basic-black);
      text-transform: uppercase;
-     margin: 0;
+     margin-top: 0;
 }
 .marg {
-     margin-top: 0px;
+     margin-top: 0;
      margin-bottom: 25px;
 }
 
@@ -1070,7 +1079,7 @@ img {
 }
 
 .delivery-car p:last-child {
-     margin-bottom: 0px;
+     margin-bottom: 0;
 }
 
 .delivery-self p {
@@ -1109,7 +1118,7 @@ img {
      font-size: 14px;
      line-height: 18px;
      align-self: center;
-     display: inline-block;
+     display: block;
      width: auto;
      padding-top: 11px;
      padding-bottom: 9px;
@@ -1126,7 +1135,7 @@ img {
      font-size: 14px;
      line-height: 18px;
      align-self: center;
-     display: inline-block;
+     display: block;
      width: auto;
      padding-top: 11px;
      padding-bottom: 9px;
@@ -1181,8 +1190,8 @@ img {
 
 .footer-logo {
      background-color: var(--basic-red);
-     box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
-     display: inline-block;
+     box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+     display: block;
      text-align: center;
      padding-top: 20px;
      width: 220px;
@@ -1380,6 +1389,9 @@ img {
 
 .breadcrumbs {
      list-style-type: none;
+     display: flex;
+     margin: 0;
+     padding: 0;
 }
 
 .item a {
@@ -1435,11 +1447,13 @@ img {
 
 .sort-list {
      grid-column: 1 / 2;
+     display: flex;
      /*grid-row: 1 / 2;*/
 }
 
 .icon-list {
      grid-column: 2 / 3;
+     display: flex;
      /*grid-row: 1 / 2;*/
 }
 
@@ -1497,6 +1511,7 @@ img {
 
 .pagination-list {
      list-style-type: none;
+     display: flex;
 }
 
 .pagination-list li {
@@ -1513,6 +1528,8 @@ img {
 
 .info {
      background-color: var(--basic-white-blue);
+     padding-top: 64px;
+     padding-bottom: 68px;
 }
 
 .placement {
