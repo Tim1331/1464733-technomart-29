@@ -169,6 +169,38 @@ img {
      overflow: hidden;
 }
 
+.search {
+     width: 269px;
+     background-color: transparent;
+     margin: 0;
+     position: relative;
+}
+
+.search:before {
+     content: "";
+     width: 17px;
+     height: 17px;
+     background-image: url('../img/icon-search-header.svg');
+     background-repeat: no-repeat;
+     background-position: 0 0;
+     position: absolute;
+     left: 18px;
+     top: 12px;
+     opacity: 0.3;
+}
+
+.search input {
+     width: inherit;
+     border: none;
+     padding-left: 41px;
+     background-color: transparent;
+     color: var(--basic-white);
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-size: 18px;
+     line-height: 24px;
+     height: 42px;
+}
+
 /*.header-main*/
 
 .header-main {
@@ -216,11 +248,11 @@ img {
 }
 
 .logo img {
-     width: 108px;
+     width: 110px;
      height: 18px;
-     padding-left: 56px;
+     padding-left: 54px;
      padding-right: 56px;
-     padding-top: 10px;
+     padding-top: 12px;
 }
 
 .header-top-links {
@@ -324,10 +356,10 @@ img {
      line-height: 23px;
      color: var(--basic-red);
      width: 318px;
-     padding-left: 28px;
-     margin-top: 0;
+     padding-left: 30px;
+     margin-top: -2px;
      margin-right: 15px;
-     width: 197px;
+     width: 198px;
 }
 
 .header-contact {
