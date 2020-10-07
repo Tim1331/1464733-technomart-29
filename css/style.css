@@ -170,7 +170,7 @@ img {
 }
 
 .search {
-     width: 269px;
+     width: 280px;
      background-color: transparent;
      margin: 0;
      position: relative;
@@ -192,7 +192,7 @@ img {
 .search input {
      width: inherit;
      border: none;
-     padding-left: 41px;
+     padding-left: 42px;
      background-color: transparent;
      color: var(--basic-white);
      font-family: 'Cuprum', Arial, sans-serif;
@@ -201,16 +201,20 @@ img {
      height: 42px;
 }
 
+.search input:hover {
+     background-color: var(--basic-night-blue);
+}
+
 /*.header-main*/
 
 .header-main {
      background-color: var(--basic-white-blue);
      margin-bottom: 0;
+     height: 320px;
 }
 
 .header-top {
      background-color: var(--basic-night-blue);
-     /*margin-top: -20px;*/
      height: 42px;
 }
 
@@ -248,9 +252,9 @@ img {
 }
 
 .logo img {
-     width: 110px;
+     width: 108px;
      height: 18px;
-     padding-left: 54px;
+     padding-left: 55px;
      padding-right: 56px;
      padding-top: 12px;
 }
@@ -269,23 +273,45 @@ img {
      padding: 0;
      list-style: none;
      /*justify-self: end;*/
+     width: 436px;
 }
 
 .button-item {
      width: 150px;
      height: 42px;
+     
 }
+
+.button-item:nth-child(2) {
+     width: 136px;
+}
+
 
 .button-item a {
      width: inherit;
      height: 33px;
      display: block;
-     padding-top: 9px;
+     padding-top: 10px;
      font-size: 18px;
-     text-align: center;
+     padding-left: 29px;
      color: var(--basic-white);
      font-family: 'Cuprum', Arial, sans-serif;
      position: relative;
+     
+}
+/* стиль catalog.html*/
+
+.btn-cart {
+     background-color: var(--basic-red); 
+}
+
+/*------*/
+.button-list .button-item:nth-child(2) a {
+     padding-left: 35px;
+}
+
+.button-list .button-item:last-child a {
+     padding-left: 19px;
 }
 
 .button-item:first-child a::before {
@@ -296,7 +322,7 @@ img {
      background-position: 0 0;
      background-repeat: none;
      position: absolute;
-     left: 9px;
+     left: 6px;
      top: 13px;
      opacity: 0.3;
 }
@@ -317,8 +343,8 @@ img {
      background-position: 0 0;
      background-repeat: none;
      position: absolute;
-     left: 9px;
-     top: 12px;
+     left: 12px;
+     top: 13px;
      opacity: 0.3;
 }
 
@@ -353,15 +379,20 @@ img {
      font-style: italic;
      font-weight: normal;
      font-size: 16px;
-     line-height: 23px;
+     line-height: 24px;
      color: var(--basic-red);
      width: 318px;
      padding-left: 30px;
-     margin-top: -2px;
+     margin-top: -3px;
      margin-right: 15px;
      width: 198px;
 }
-
+/*
+для catalog.html
+*/
+.header-title-catalog {
+     margin-right: 33px;
+}
 .header-contact {
      width: 272px;
      /* grid-column: 2 / 3;*/
@@ -377,10 +408,24 @@ img {
      display: block;
      border: 3px solid var(--basic-white);
      width: 182px;
-     padding-left: 74px;
-     padding-top: 7px;
-     padding-bottom: 8px;
+     padding-top: 4px;
+     padding-bottom: 5px;
+     margin-left: 5px;
+     width: 264px;
      position: relative;
+}
+
+
+.header-tel span:first-of-type {
+     padding-left: 72px;
+}
+
+.header-tel span:nth-of-type(2) {
+     padding-left: 5px;
+}
+
+.header-tel span:last-of-type {
+     padding-left: 5px;
 }
 
 .header-tel::before {
@@ -391,8 +436,8 @@ img {
      background-repeat: none;
      background-position: 0 0;
      position: absolute;
-     left: 40px;
-     top: 13px;
+     left: 36px;
+     top: 10px;
 }
 
 .header-addres {
@@ -402,6 +447,8 @@ img {
      color: var(--basic-deep-blue);
      text-align: center;
      margin-top: 0;
+     padding-top: 3px;
+    padding-left: 9px;
 }
 
 .authorization-btn {
@@ -424,8 +471,8 @@ img {
      margin: 0;
 }
 
-.btn-item {
-     padding-right: 0px;
+.btn-item:last-child {
+     padding-left: 2px;
 }
 
 .btn-item:first-child {
@@ -437,8 +484,8 @@ img {
      display: flex;
      padding: 0;
      width: 299px;
-     margin-top: 4px;
-     padding-left: 44px;
+     margin-top: 5px;
+     padding-left: 45px;
      padding-right: 45px;
 }
 
@@ -458,7 +505,7 @@ img {
      background-position: 0 0;
      position: absolute;
      top: 14px;
-     left: 19px;
+     left: 18px;
 }
 
 .header-btn:last-child {
@@ -535,7 +582,7 @@ img {
 }
 
 .navigation-main {
-     margin-top: 22px;
+     margin-top: 26px;
 }
 
 .navigation-list {
@@ -548,12 +595,12 @@ img {
 }
 
 .navigation-item:first-child a {
-     padding-left: 52px;
+     padding-left: 53px;
      padding-right: 31px;
 }
 
 .navigation-item:nth-child(2) a {
-     padding-left: 27px;
+     padding-left: 26px;
      padding-right: 24px;
 }
 
@@ -563,12 +610,12 @@ img {
 }
 
 .navigation-item:nth-child(4) a {
-     padding-left: 30px;
+     padding-left: 28px;
      padding-right: 27px;
 }
 
 .navigation-item:nth-child(5) a {
-     padding-left: 32px;
+     padding-left: 29px;
      padding-right: 29px;
 }
 
@@ -579,12 +626,12 @@ img {
 
 .navigation-item:last-child a {
      padding-left: 31px;
-     padding-right: 47px;
+     padding-right: 54px;
 }
 
 .navigation-item a {
      display: block;
-     padding-top: 16px;
+     padding-top: 17px;
      padding-bottom: 20px;
      text-align: center;
      color: var(--basic-white);
@@ -596,6 +643,7 @@ img {
      background-color: var(--basic-night-blue);
      box-shadow: inset 0 -5px 0 var(--basic-night-blue);
      color: var(--basic-white);
+     height: 23px;
 }
 
 .navigation-item a:active {
@@ -630,7 +678,7 @@ img {
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
-     top: 30px;
+     top: 31px;
      right: 43px;
 }
 
@@ -706,7 +754,7 @@ img {
      grid-template-rows: 123px 123px 123px;
      gap: 20px;
      align-content: start;
-     margin-top: 39px;
+     margin-top: 38px;
      margin-bottom: 59px;
 }
 
@@ -720,10 +768,18 @@ img {
      line-height: 30px;
      font-family: 'Cuprum', Arial, sans-serif;
      color: var(--basic-white);
-     margin-top: 20px;
-     margin-bottom: 14px;
+     margin-top: 21px;
+     margin-bottom: 13px;
      margin-left: 23px;
 }
+
+.tool h3 {
+     margin-left: 22px;
+}
+
+
+
+
 
 .menu-block a {
      font-size: 14px;
@@ -758,27 +814,29 @@ img {
 }
 
 .tool a {
-     padding-left: 26px;
-     padding-right: 26px;
-     width: 83px;
+     padding-left: 23px;
+    padding-right: 23px;
+    width: 88px;
 }
 
 .technics a {
-     padding-left: 30px;
-     padding-right: 31px;
-     width: 74px;
+     padding-left: 23px;
+     padding-right: 22px;
+     width: 88px;
 }
 
 .discount a {
      padding-left: 22px;
      padding-right: 23px;
+     padding-top: 8px;
      width: 90px;
 }
 
 .delivery-color a {
-     padding-left: 36px;
-     padding-right: 37px;
-     width: 62px;
+     padding-left: 34px;
+     padding-right: 36px;
+     padding-top: 9px;
+     width: 63px;
 }
 
 /* Стили слайдера*/
@@ -821,6 +879,7 @@ img {
      font-size: 18px;
      font-family: 'Cuprum', Arial, sans-serif;
      margin-left: 24px;
+     margin-top: 5px;
      text-transform: lowercase;
 }
 
@@ -1038,7 +1097,7 @@ img {
      right: 0;
      width: 70px;
      height: 70px;
-     background-image: linear-gradient(225deg, var(--basic-rgb-white) 19px, var(--basic-red) 19px, var(--basic-red) 49px, var(--basic-rgb-white) 49px);
+     background-image: linear-gradient(225deg, var(--basic-rgb-white) 17px, var(--basic-red) 17px, var(--basic-red) 48px, var(--basic-rgb-white) 48px);
 }
 
 .label-container::before {
@@ -1053,8 +1112,8 @@ img {
      width: 67px;
      height: 18px;
      position: relative;
-     top: 14px;
-     left: 10px;
+     top: 15px;
+     left: 12px;
      color: var(--basic-white);
 }
 
@@ -1294,7 +1353,7 @@ img {
 
 .service-item a {
      background-color: var(--basic-deep-blue);
-     box-shadow: 0 1px 0 #293449, inset 0 1px 0 #405069;
+     box-shadow: 0 1px 0 var(--basic-night-blue), inset 0 1px 0 var(--basic-hover-delivery);
      color: var(--basic-white);
      font-weight: bold;
      font-size: 21px;
@@ -1349,8 +1408,6 @@ img {
      position: relative;
      right: 370px;
      top: 140px;
-     outline: 1px solid green;
-     outline-offset: -1px;
 }
 */
 
