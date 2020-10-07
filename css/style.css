@@ -1808,7 +1808,7 @@ img {
      text-transform: uppercase;
 }
 
-.products {
+.products-grid {
      display: grid;
      grid-template-columns: 220px 700px;
      column-gap: 20px;
