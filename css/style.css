@@ -784,7 +784,7 @@ img {
      right: 31px;
 }
 
-.menu-grid {
+.menu .container {
      display: grid;
      grid-template-columns: 300px 300px 300px;
      grid-template-rows: 123px 123px 123px;
@@ -1126,6 +1126,7 @@ img {
 
 .hidden-products-item, .hidden-small-model {
      opacity: 0;
+     box-shadow: 0 5px 12px 4px var(--basic-product-border);
      position: relative;
 }
 
@@ -1340,6 +1341,15 @@ img {
 
 .brands-item a {
      margin-top: 5px;
+}
+
+.brands-item:hover {
+     box-shadow: 0 5px 12px 4px var(--basic-product-border);
+}
+
+.brands-item:active {
+     box-shadow: 0 5px 12px 4px var(--basic-product-border);
+     opacity: 0.5;
 }
 
 .brands-item:first-of-type a, .brands-item:last-of-type a, .brands-item:nth-of-type(4) a {
