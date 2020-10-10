@@ -75,7 +75,7 @@
 					<a href="">инструмент</a>
 				</li>
 				<li class="item">
-					перфораторы
+					<span>перфораторы</span>
 				</li>
 			</ul>
 		</div>
@@ -84,11 +84,29 @@
 		</div>
 		<section class="products-grid container">
 			<div class="filter">
-				<div class="filter-name">
-					<h2 class="title-fon">Фильтр</h2>
-				</div>
-				<!--Здесь будет форма фильтра-->
-				<div class="filter-form"></div>
+				<h2 class="title-fon">Фильтр:</h2>
+				<form method="get" class="form-filter" action="https://echo.htmlacademy.ru">
+					<fieldset class="filter-item">
+						<legend>Цена:</legend>
+						<div class="range-filter">
+							<div class="range-controls">
+								<div class="scale">
+									<div class="bar"></div>
+								</div>
+								<div class="toggle toggle-min"></div>
+								<div class="toggle toggle-max"></div>
+							</div>
+							<div class="price-controls">
+								<label class="min-price">
+									<input type="number" name="min-price" value="0">
+								</label>
+								<label class="max-price">
+									- <input type="number" name="max-price" value="30000">
+								</label>
+							</div>
+						</div>
+					</fieldset>
+				</form>
 			</div>
 			<div class="cards">
 				<h2 class="hidden placement">Сортировка товаров</h2>
@@ -96,16 +114,16 @@
 					<ul class="sort-list">
 						<li class="sort-item">сортировка:</li>
 						<li class="sort-item"><span>по цене</span></li>
-						<li class="sort-item"><span>по типу</span< /li>
+						<li class="sort-item"><span>по типу</span> </li>
 						<li class="sort-item"><span>по функционалу</span></li>
 					</ul>
 					<ul class="icon-list">
-						<li class="icon-item">&nbsp;</li>
-						<li class="icon-item">&nbsp;</li>
+						<li class="icon-item"></li>
+						<li class="icon-item"></li>
 					</ul>
 				</div>
 				<h2 class="hidden placement">Список перфораторов</h2>
-				<ul class="products-list">
+				<ul class="products-list top-margin">
 					<li class="products-item">
 						<figure class="photo">
 							<img src="img/bfg-6000.jpg" alt="Перфоратор BOSCH BFG 6000" width="144" height="128">
@@ -113,7 +131,13 @@
 						</figure>
 						<div class="price-block">
 							<p class="old-price">30500 р.</p>
-							<a class="arrow-btn position-btn" href="">25500 р.</a>
+							<a class="arrow-btn" href="">25500 р.</a>
+						</div>
+						<div class="hidden-products-item">
+							<div class="button-container">
+								<button type="button" class="btn-buy">Купить</button>
+								<button type="button" class="btn-bookmark"> В закладки</button>
+							</div>
 						</div>
 					</li>
 					<li class="products-item">
@@ -123,7 +147,13 @@
 						</figure>
 						<div class="price-block">
 							<p class="old-price">30500 р.</p>
-							<a class="arrow-btn position-btn" href="">25500 р.</a>
+							<a class="arrow-btn" href="">25500 р.</a>
+						</div>
+						<div class="hidden-products-item">
+							<div class="button-container">
+								<button type="button" class="btn-buy">Купить</button>
+								<button type="button" class="btn-bookmark"> В закладки</button>
+							</div>
 						</div>
 					</li>
 					<li class="products-item">
@@ -133,7 +163,13 @@
 						</figure>
 						<div class="price-block">
 							<p class="old-price">30500 р.</p>
-							<a class="arrow-btn position-btn" href="">25500 р.</a>
+							<a class="arrow-btn" href="">25500 р.</a>
+						</div>
+						<div class="hidden-products-item">
+							<div class="button-container">
+								<button type="button" class="btn-buy">Купить</button>
+								<button type="button" class="btn-bookmark"> В закладки</button>
+							</div>
 						</div>
 					</li>
 					<li class="small-model">
@@ -144,7 +180,13 @@
 						</figure>
 						<div class="price-block">
 							<p class="old-price">22500 р.</p>
-							<a class="arrow-btn position-btn" href="">15500 р.</a>
+							<a class="arrow-btn" href="">15500 р.</a>
+						</div>
+						<div class="hidden-products-item">
+							<div class="button-container">
+								<button type="button" class="btn-buy">Купить</button>
+								<button type="button" class="btn-bookmark"> В закладки</button>
+							</div>
 						</div>
 					</li>
 					<li class="products-item">
@@ -154,7 +196,13 @@
 						</figure>
 						<div class="price-block">
 							<p class="old-price">30500 р.</p>
-							<a class="arrow-btn position-btn" href="">25500 р.</a>
+							<a class="arrow-btn" href="">25500 р.</a>
+						</div>
+						<div class="hidden-products-item">
+							<div class="button-container">
+								<button type="button" class="btn-buy">Купить</button>
+								<button type="button" class="btn-bookmark"> В закладки</button>
+							</div>
 						</div>
 					</li>
 					<li class="small-model">
@@ -165,7 +213,13 @@
 						</figure>
 						<div class="price-block">
 							<p>&nbsp;</p>
-							<a class="arrow-btn position-btn" href="">12500 р.</a>
+							<a class="arrow-btn" href="">12500 р.</a>
+						</div>
+						<div class="hidden-products-item">
+							<div class="button-container">
+								<button type="button" class="btn-buy">Купить</button>
+								<button type="button" class="btn-bookmark"> В закладки</button>
+							</div>
 						</div>
 					</li>
 					<li class="small-model">
@@ -176,7 +230,13 @@
 						</figure>
 						<div class="price-block">
 							<p class="old-price">22500 р.</p>
-							<a class="arrow-btn position-btn" href="">15500 р.</a>
+							<a class="arrow-btn" href="">15500 р.</a>
+						</div>
+						<div class="hidden-products-item">
+							<div class="button-container">
+								<button type="button" class="btn-buy">Купить</button>
+								<button type="button" class="btn-bookmark"> В закладки</button>
+							</div>
 						</div>
 					</li>
 					<li class="products-item">
@@ -186,7 +246,13 @@
 						</figure>
 						<div class="price-block">
 							<p class="old-price">30500 р.</p>
-							<a class="arrow-btn position-btn" href="">25500 р.</a>
+							<a class="arrow-btn" href="">25500 р.</a>
+						</div>
+						<div class="hidden-products-item">
+							<div class="button-container">
+								<button type="button" class="btn-buy">Купить</button>
+								<button type="button" class="btn-bookmark"> В закладки</button>
+							</div>
 						</div>
 					</li>
 					<li class="small-model">
@@ -196,73 +262,13 @@
 							<figcaption class="title-product">Перфоратор BOSCH BFG 2000</figcaption>
 						</figure>
 						<div class="price-block">
-							<p>&nbsp;</p>
-							<a class="arrow-btn position-btn" href="">12500 р.</a>
+							<a class="arrow-btn" href="">12500 р.</a>
 						</div>
-					</li>
-				</ul>
-				<ul class="opacity-products-list">
-					<li class="hidden-products-item">
-						<div class="label-container"></div>
-						<div class="button-container">
-							<button type="button" class="btn-buy">Купить</button>
-							<button type="button" class="btn-bookmark"> В закладки</button>
-						</div>
-					</li>
-					<li class="hidden-products-item">
-						<div class="label-container"></div>
-						<div class="button-container">
-							<button type="button" class="btn-buy">Купить</button>
-							<button type="button" class="btn-bookmark"> В закладки</button>
-						</div>
-					</li>
-					<li class="hidden-products-item">
-						<div class="label-container"></div>
-						<div class="button-container">
-							<button type="button" class="btn-buy">Купить</button>
-							<button type="button" class="btn-bookmark"> В закладки</button>
-						</div>
-					</li>
-					<li class="hidden-small-model">
-						<div class="label-container"></div>
-						<div class="button-container">
-							<button type="button" class="btn-buy">Купить</button>
-							<button type="button" class="btn-bookmark"> В закладки</button>
-						</div>
-					</li>
-					<li class="hidden-products-item">
-						<div class="label-container"></div>
-						<div class="button-container">
-							<button type="button" class="btn-buy">Купить</button>
-							<button type="button" class="btn-bookmark"> В закладки</button>
-						</div>
-					</li>
-					<li class="hidden-small-model">
-						<div class="label-container"></div>
-						<div class="button-container">
-							<button type="button" class="btn-buy">Купить</button>
-							<button type="button" class="btn-bookmark"> В закладки</button>
-						</div>
-					</li>
-					<li class="hidden-small-model">
-						<div class="label-container"></div>
-						<div class="button-container">
-							<button type="button" class="btn-buy">Купить</button>
-							<button type="button" class="btn-bookmark"> В закладки</button>
-						</div>
-					</li>
-					<li class="hidden-products-item">
-						<div class="label-container"></div>
-						<div class="button-container">
-							<button type="button" class="btn-buy">Купить</button>
-							<button type="button" class="btn-bookmark"> В закладки</button>
-						</div>
-					</li>
-					<li class="hidden-small-model">
-						<div class="label-container"></div>
-						<div class="button-container">
-							<button type="button" class="btn-buy">Купить</button>
-							<button type="button" class="btn-bookmark"> В закладки</button>
+						<div class="hidden-products-item">
+							<div class="button-container">
+								<button type="button" class="btn-buy">Купить</button>
+								<button type="button" class="btn-bookmark"> В закладки</button>
+							</div>
 						</div>
 					</li>
 				</ul>
@@ -305,7 +311,7 @@
 				<h2 class="hidden placement">ТЕХНОМАРТ</h2>
 				<a class="footer-logo" href=""><img src="img/logo-technomart-footer.png" alt="ТЕХНОМАРТ" width="138"
 						height="23"></a>
-				<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>+7 (812) 555-05-55</p>
+				<p class="footer-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br> +7 (812) 555-05-55</p>
 				<ul class="footer-navigation-top-list">
 					<li class="footer-navigation-top-item"><a href="">Компания</a></li>
 					<li class="footer-navigation-top-item"><a href="">Новости</a></li>
@@ -324,7 +330,7 @@
 		<section class="footer-bottom">
 			<div class="container">
 				<h2 class="hidden placement">Компания &laquo;Техномарт&raquo;</h2>
-				<p class="copyright">&copy; 2010–2019 Компания &laquo;Техномарт&raquo; Все права защищены</p>
+				<p class="copyright">&copy; 2010–2019 Компания &laquo;Техномарт&raquo; <br> Все права защищены</p>
 				<p class="social-btn">
 					<a href=""></a>
 					<a href=""></a>
@@ -344,5 +350,4 @@
 		</section>
 	</footer>
 </body>
-
 </html>
