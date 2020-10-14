@@ -12,7 +12,7 @@
 	<header class="header-main">
 		<section class="header-top">
 			<div class="container">
-				<h2 class="hidden">ТЕХНОМАРТ</h2>
+				<h2 class="visually-hidden">техномарт</h2>
 				<a href="index.html" class="logo"><img src="img/logo-technomart.png" alt="ТЕХНОМАРТ" width="108"
 						height="18"></a>
 				<form class="search" action="https://echo.htmlacademy.ru" method="post">
@@ -27,7 +27,7 @@
 		</section>
 		<section class="header-bottom">
 			<div class="container">
-				<h2 class="hidden">Интернет-магазин строительных материалов и инструментов для ремонта</h2>
+				<h2 class="visually-hidden">Интернет-магазин строительных материалов и инструментов для ремонта</h2>
 				<p class="header-title">Интepнeт-магазин <br>строительных материалов <br>и инструментов для ремонта
 				</p>
 				<div class="header-contact">
@@ -53,10 +53,10 @@
 		</section>
 	</header>
 	<main class="page-main main-content">
-		<h1 class="hidden container">Интернет-магазин Техномарт</h1>
+		<h1 class="visually-hidden container">Интернет-магазин Техномарт</h1>
 		<section class="menu">
 			<div class="container">
-				<h2 class="hidden">Меню-плитка и слайдер</h2>
+				<h2 class="visually-hidden">Меню-плитка и слайдер</h2>
 				<div class="menu-block mateotal">
 					<div class="label-container">
 						<img src="img/new.png" alt="Лейбл новой продукции">
@@ -80,32 +80,29 @@
 					<h3>Доставка</h3>
 					<a href="">бесплатно</a>
 				</div>
-				<!-- Пропишем ниже разметку слайдера строки 70-91 -->
 				<div class="menu-block-slider">
 					<div class="item">
-						<img src="img/perforators.jpg" alt="ПЕРФОРАТОРЫ" width="620" height="266">
+						<img src="img/perforators.jpg" alt="перфораторы" width="620" height="266">
 						<div class="slide-description">
-							<h5>перфораторы</h5>
+							<p class="lead">перфораторы</p>
 							<p>Настоящие мужские игрушки</p>
 						</div>
 					</div>
 					<div class="item">
-						<img src="img/drill.jpg" alt="ДРЕЛИ" width="620" height="266">
+						<img src="img/drill.jpg" alt="дрели" width="620" height="266">
 						<div class="slide-description">
-							<h5>дрели</h5>
+							<p class="lead">дрели</p>
 							<p>Соседям на радость!</p>
 						</div>
 					</div>
 					<div class="slider-arrow">
-						<a href=""></a>
-						<a href=""></a>
+						<a href="" area-label="Влево"></a>
+						<a href="" area-label="Вправо"></a>
 					</div>
 					<div class="slider-catalog">
 						<a class=" button button-slider" href="catalog.html">открыть каталог</a>
-						<span class="point">
-							<!--Здесь будет точка слайдера--></span>
-						<span class="point">
-							<!--Здесь будет точка слайдера--></span>
+						<span class="point" area-label="левая позиция"></span>
+						<span class="point point-active" area-label="правая позиция"></span>
 					</div>
 				</div>
 			</div>
@@ -184,7 +181,7 @@
 		<section class="brands">
 			<!-- сетка блока будет сделана флексами -->
 			<div class="container">
-				<h2 class="hidden">Производители</h2>
+				<h2 class="visually-hidden">Производители</h2>
 				<div class="products-title">
 					<h3 class="heading-section">популярные производители:</h3>
 					<a class="button btn-brands" href="">Все производители</a>
@@ -234,7 +231,7 @@
 			</div>
 		</section>
 		<section class="service">
-			<h2 class="hidden">Блок сервисов</h2>
+			<h2 class="visually-hidden">Блок сервисов</h2>
 			<div class="container">
 				<article class="article-servis">
 					<h3 class="heading-black marg">сервисы</h3>
@@ -300,7 +297,7 @@
 	<footer class="page-footer footer-main">
 		<section class="footer-top">
 			<div class="container">
-				<h2 class="hidden placement">ТЕХНОМАРТ</h2>
+				<h2 class="visually-hidden placement">техномарт</h2>
 				<a class="footer-logo" href=""><img src="img/logo-technomart-footer.png" alt="ТЕХНОМАРТ" width="138"
 						height="23"></a>
 				<p class="footer-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br> +7 (812) 555-05-55</p>
@@ -310,6 +307,7 @@
 					<li class="footer-navigation-top-item"><a href="">Каталог</a></li>
 					<li class="footer-navigation-top-item"><a href="">Доставка</a></li>
 					<li class="footer-navigation-top-item"><a href="">Контакты</a></li>
+
 				</ul>
 				<ul class="footer-navigation-bottom-list">
 					<li class="footer-navigation-bottom-item"><a href="">Материалы</a></li>
@@ -321,7 +319,7 @@
 		</section>
 		<section class="footer-bottom">
 			<div class="container">
-				<h2 class="hidden placement">Компания &laquo;Техномарт&raquo;</h2>
+				<h2 class="visually-hidden placement">Компания &laquo;Техномарт&raquo;</h2>
 				<p class="copyright">&copy; 2010–2019 Компания &laquo;Техномарт&raquo; <br> Все права защищены</p>
 				<p class="social-btn">
 					<a href=""></a>
@@ -341,6 +339,33 @@
 			</div>
 		</section>
 	</footer>
+	<section class="modal modal-message">
+		<h2 class="visually-hidden">Форма обратной связи</h2>
+		<form class="message-form" action="https://echo.htmlacademy.ru" method="post">
+			<label for="name-surname">
+				Ваше имя:
+				<input type="text" id="name-surname" name="surname" placeholder="Имя Фамилия">
+			</label>
+			<label for="login-login">
+				Ваш e-mail:
+				<input type="email" id="login-login" name="login" placeholder="email@example.com">
+			</label>
+			<label class="label-field" for="field-message">
+				Текст письма:
+				<textarea class="field" name="field-message" cols="60" rows="4">В свободной форме</textarea>
+			</label>
+			<button class="button button-message" type="submit">Отправить</button>
+		</form>
+		<button class="modal-close" type="button" aria-label="Закрыть"></button>
+	</section>
+	<section class="modal modal-map">
+		<h2 class="visually-hidden">Карта</h2>
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123886!2d30.320894615957386!3d59.93879686904808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1602692062440!5m2!1sru!2sru"
+			width="943" height="442" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+			tabindex="0" title="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></iframe>
+		<button class="modal-close" type="button" aria-label="Закрыть"></button>
+	</section>
 </body>
 
 </html>
