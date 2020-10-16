@@ -837,15 +837,33 @@ img {
      line-height: 30px;
      font-family: 'Cuprum', Arial, sans-serif;
      color: var(--basic-white);
+     height: 30px;
      margin-top: 21px;
+     padding-top: 0px;
      margin-bottom: 13px;
-     margin-left: 23px;
+}
+
+.mateotal h3 {
+     margin-left: 24px;
 }
 
 .tool h3 {
      margin-left: 22px;
 }
 
+.technics h3,
+.discount h3,
+.delivery-color h3  {
+     margin-left: 23px;
+}
+
+.discount h3 {
+     margin-bottom: 11px;
+}
+
+.delivery-color h3 {
+     margin-bottom: 12px;
+}
 .menu-block a {
      font-size: 14px;
      line-height: 18px;
@@ -875,33 +893,41 @@ img {
 .mateotal a {
      padding-left: 23px;
      padding-right: 24px;
+     padding-top: 10px;
      width: 88px;
 }
 
 .tool a {
      padding-left: 23px;
      padding-right: 23px;
-     width: 88px;
+     margin-left: 22px;
+     width: 89px;
+     padding-top: 10px;
+     margin-top: 2px;
+     height: 18px;
 }
 
 .technics a {
      padding-left: 23px;
-     padding-right: 22px;
-     width: 88px;
+     padding-right: 23px;
+     margin-left: 22px;
+     width: 89px;
 }
 
 .discount a {
      padding-left: 22px;
      padding-right: 23px;
-     padding-top: 8px;
+     padding-top: 10px;
      width: 90px;
+     height: 18px;
 }
 
 .delivery-color a {
-     padding-left: 34px;
+     padding-left: 35px;
      padding-right: 36px;
-     padding-top: 9px;
-     width: 63px;
+     padding-top: 10px;
+     margin-left: 22px;
+     width: 64px;
 }
 
 /* -----Slider----- */
@@ -1107,7 +1133,7 @@ img {
      font-weight: normal;
      font-family: 'Cuprum', Arial, sans-serif;
      line-height: 30px;
-     margin-top: 17px;
+     margin-top: 13px;
      margin-bottom: 32px;
 }
 
@@ -1685,13 +1711,13 @@ img {
 .delivery-car-item:first-of-type::before {
      position: absolute;
      left: 0;
-     top: 13px;
+     top: 15px;
 }
 
 .delivery-car-item:nth-of-type(2)::before {
      position: absolute;
      left: 0;
-     top: 11px;
+     top: 13px;
 }
 
 .delivery-car-item::before {
@@ -1703,7 +1729,7 @@ img {
      background-position: 0 0;
      position: absolute;
      left: 0;
-     top: 9px;
+     top: 11px;
 }
 
 .delivery-car-item {
