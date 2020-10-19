@@ -243,10 +243,11 @@ img {
 }
 
 .search {
-     width: 280px;
+     width: 270px;
      background-color: transparent;
      margin: 0;
      position: relative;
+     height: 42px;
 }
 
 .search input::placeholder {
@@ -283,7 +284,9 @@ img {
      font-family: 'Cuprum', Arial, sans-serif;
      font-size: 18px;
      line-height: 24px;
-     height: 42px;
+     padding-top: 10px;
+     padding-bottom: 8px;
+     padding-left: 42px;
 }
 
 .search input:hover {
@@ -336,82 +339,20 @@ img {
      width: 450px;
 }
 
-.button-list {
+.button-list,
+.button-list-catalog {
      display: flex;
      justify-content: space-between;
      margin: 0;
      padding: 0;
      list-style: none;
-     width: 436px;
 }
+ /* --- для index.html ---*/
 
-.button-item {
+.button-item
+ {
      width: 150px;
      height: 42px;
-}
-
-.button-item:nth-child(2) {
-     width: 136px;
-}
-
-.button-item a {
-     width: inherit;
-     height: 33px;
-     display: block;
-     padding-top: 10px;
-     font-size: 18px;
-     padding-left: 29px;
-     color: var(--basic-white);
-     font-family: 'Cuprum', Arial, sans-serif;
-     position: relative;
-}
-
-/* стиль catalog.html*/
-
-.btn-cart {
-     background-color: var(--basic-red);
-}
-
-.button-list .button-item:nth-child(2) a {
-     padding-left: 35px;
-}
-
-.button-list .button-item:last-child a {
-     padding-left: 19px;
-}
-
-.button-item:first-child a::before {
-     content: "";
-     width: 14px;
-     height: 15px;
-     background-image: url("../img/icon-bookmark-header.svg");
-     background-position: 0 0;
-     background-repeat: none;
-     position: absolute;
-     left: 6px;
-     top: 13px;
-     opacity: 0.3;
-}
-
-.button-item:first-child a:hover::before, .button-item:nth-child(2) a:hover::before {
-     opacity: 1;
-}
-
-.button-item:first-child a:active::before, .button-item:nth-child(2) a:active::before {
-     opacity: 0.3;
-}
-
-.button-item:nth-child(2) a::before {
-     content: "";
-     width: 15px;
-     height: 15px;
-     background-image: url("../img/icon-cart.svg");
-     background-position: 0 0;
-     background-repeat: none;
-     position: absolute;
-     left: 12px;
-     top: 13px;
-     opacity: 0.3;
 }
 
 .button-item:last-child {
@@ -420,17 +361,184 @@ img {
      color: var(--basic-white);
 }
 
-.button-item:last-child:hover {
+.button-item a {
+     width: inherit;
+     display: block;
+     padding-top: 10px;
+     padding-bottom: 8px;
+     font-size: 18px;
+     padding-left: 29px;
+     color: var(--basic-white);
+     font-family: 'Cuprum', Arial, sans-serif;
+     position: relative;
+}
+
+
+/* Индивидуальные стили для .button-item a */
+
+.button-item:first-of-type a{
+     padding-left: 43px;
+     padding-right: 24px;
+     width: 83px;
+}
+
+/* иконка первой ссылки*/
+
+.button-item:first-of-type a::before {
+     left: 20px;
+     top: 13px;
+}
+
+.button-item:nth-of-type(2) a {
+     padding-left: 49px;
+     padding-right: 26px;
+     width: 75px;
+}
+
+/* иконка второй ссылки */
+
+.button-item:nth-of-type(2) a::before {
+     top: 13px;
+     left: 26px;
+}
+
+/* --- для catalog.html ---*/
+
+.btn-cart {
+     width: 136px;
+     height: 42px;
+     background-color: var(--basic-red);
+}
+
+.button-item-catalog:last-of-type,
+.button-item-catalog:first-of-type {
+     height: 42px;
+}
+
+.button-item-catalog:last-of-type {
+     background-color: var(--basic-green);
+     color: var(--basic-white);
+     height: 42px;
+}
+
+.button-item-catalog:first-of-type a {
+     width: 98px;
+     padding-left: 28px;
+     padding-right: 38px;
+}
+
+/*Иконка первой ссылки*/
+
+.button-item-catalog:first-of-type a::before {
+ left: 15px;
+ top: 13px;
+}
+
+.btn-cart a {
+     width: inherit;
+     display: block;
+     padding-top: 10px;
+     padding-bottom: 8px;
+     font-size: 18px;
+     padding-left: 35px;
+     padding-right: 21px;
+     width: 80px;
+     color: var(--basic-white);
+     font-family: 'Cuprum', Arial, sans-serif;
+     position: relative;
+}
+
+/* Иконка второй ссылки */
+
+.btn-cart a::before {
+     top: 13px;
+     left: 12px;
+}
+
+/* индивидуальный стиль для первой ссылки button-item-catalog */
+
+.button-item-catalog:first-of-type a {
+     padding-left: 38px;
+     padding-right: 28px;
+     width: 93px;
+}
+
+/*Шрифты для первой и третьей ссылок*/
+
+.button-item-catalog:first-of-type a, 
+.button-item-catalog:last-of-type a{
+display: block;
+padding-top: 10px;
+padding-bottom: 8px;
+font-size: 18px;
+color: var(--basic-white);
+font-family: 'Cuprum', Arial, sans-serif;
+position: relative;
+}
+
+/* --- Общие стили --- */
+
+.button-item:last-of-type a,
+.button-item-catalog:last-of-type a{
+     padding-left: 19px;
+     padding-right: 16px;
+     width: 115px;
+}
+
+/* Общие стили before для первых ссылок */
+
+.button-item:first-of-type a::before,
+.button-item-catalog:first-of-type a::before {
+     content: "";
+     width: 14px;
+     height: 15px;
+     background-image: url("../img/icon-bookmark-header.svg");
+     background-position: 0 0;
+     background-repeat: none;
+     position: absolute;
+     opacity: 0.3;
+}
+
+/* Общие стили before для вторых ссылок */
+
+.button-item:nth-of-type(2) a::before,
+.btn-cart a::before {
+     content: "";
+     width: 15px;
+     height: 15px;
+     background-image: url("../img/icon-cart.svg");
+     background-position: 0 0;
+     background-repeat: none;
+     position: absolute;
+     opacity: 0.3;
+}
+
+
+/*Общие стили состояния*/
+
+.button-item:first-child a:hover::before, .button-item:nth-child(2) a:hover::before, 
+.button-item-catalog:first-child a:hover::before, .button-item-catalog:nth-child(2) a:hover::before {
+     opacity: 1;
+}
+
+.button-item:first-child a:active::before, .button-item:nth-child(2) a:active::before,
+.button-item-catalog:first-child a:active::before, .button-item-catalog:nth-child(2) a:active::before {
+     opacity: 0.3;
+}
+
+.button-item:last-child:hover,
+.button-item-catalog:last-child:hover
+ {
      background-color: var(--basic-green-hover);
      color: var(--basic-white);
 }
 
-.button-item:last-child:active {
+.button-item:last-child:active,
+.button-item-catalog:last-child:active
+  {
      background-color: var(--basic-green);
      color: var(--basic-rgb);
 }
-
-/*-----------------------------------------*/
 
 .header-title {
      font-family: 'Cuprum', Arial, sans-serif;
@@ -446,9 +554,7 @@ img {
      width: 198px;
 }
 
-/*
-для catalog.html
-*/
+/* для catalog.html */
 
 .header-title-catalog {
      margin-right: 33px;
@@ -1505,7 +1611,7 @@ img {
 .article-delivery {
      grid-column: 2 / 3;
      margin-left: 11px;
-     margin-top: 55px;
+     margin-top: 51px;
 }
 
 .article-servis p, .article-delivery p {
@@ -1982,8 +2088,6 @@ img {
 }
 
 /*---Button user---*/
-
-.link-user {}
 
 .link-user:active {
      color: var(--basic-greylight);
@@ -2553,7 +2657,6 @@ img {
      top: 1px;
 }
 
-
 .look-button {
      border-radius: 0;
      background-color: var(--basic-white);
@@ -2659,7 +2762,7 @@ img {
      background-position: 0 0;
      position: absolute;
      bottom: 1px;
-     right: 3px;
+     right: -1px;
 }
 
 .icon-item:first-of-type:hover::before {
@@ -2679,7 +2782,7 @@ img {
      background-position: 0 0;
      position: absolute;
      bottom: 1px;
-     right: -26px;
+     right: -33px;
 }
 
 .icon-item:last-of-type:hover::before {
@@ -2764,7 +2867,7 @@ img {
      right: 0;
      left: 0;
      margin: auto;
-     box-shadow: 0 4px 16px 4px var(--basic-product-border);
+     box-shadow: 0 20px 40px 0px var(--basic-black);
      border-top: 7px solid var(--basic-red);
 }
 
@@ -2798,17 +2901,13 @@ img {
 .modal-message {
      width: 460px;
      height: 343px;
-     margin-left: 474px;
      padding: 40px 80px;
      background-color: var(--basic-white);
      background-image: linear-gradient(to bottom, var(--basic-white) 310px, var(--basic-fill-grey) 310px, var(--basic-fill-grey) 150px);
 }
 
-/*Message form*/
-
-
-
 /*Textarea modal-message*/
+
 .field {
      resize: none;
 }
