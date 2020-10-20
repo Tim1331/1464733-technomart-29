@@ -3,128 +3,128 @@
 /* pt-sans-regular - latin_cyrillic */
 
 @font-face {
-     font-family: 'PT Sans';
+     font-family: "PT Sans";
      font-style: normal;
      font-weight: 400;
-     src: url('../fonts/pt-sans-v12-latin_cyrillic-regular.eot');
+     src: url("../fonts/pt-sans-v12-latin_cyrillic-regular.eot");
      /* IE9 Compat Modes */
-     src: local('PT Sans'), local('PTSans-Regular'), url('../fonts/pt-sans-v12-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/pt-sans-v12-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/pt-sans-v12-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-     url('../fonts/pt-sans-v12-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-     url('../fonts/pt-sans-v12-latin_cyrillic-regular.svg#PTSans') format('svg');
+     src: local("PT Sans"), local("PTSans-Regular"), url("../fonts/pt-sans-v12-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+     url("../fonts/pt-sans-v12-latin_cyrillic-regular.woff2") format("woff2"), /* Super Modern Browsers */
+     url("../fonts/pt-sans-v12-latin_cyrillic-regular.woff") format("woff"), /* Modern Browsers */
+     url("../fonts/pt-sans-v12-latin_cyrillic-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+     url("../fonts/pt-sans-v12-latin_cyrillic-regular.svg#PTSans") format("svg");
      /* Legacy iOS */
 }
 
 /* pt-sans-700 - latin_cyrillic */
 
 @font-face {
-     font-family: 'PT Sans';
+     font-family: "PT Sans";
      font-style: normal;
      font-weight: 700;
-     src: url('../fonts/pt-sans-v12-latin_cyrillic-700.eot');
+     src: url("../fonts/pt-sans-v12-latin_cyrillic-700.eot");
      /* IE9 Compat Modes */
-     src: local('PT Sans Bold'), local('PTSans-Bold'), url('../fonts/pt-sans-v12-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/pt-sans-v12-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/pt-sans-v12-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
-     url('../fonts/pt-sans-v12-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
-     url('../fonts/pt-sans-v12-latin_cyrillic-700.svg#PTSans') format('svg');
+     src: local("PT Sans Bold"), local("PTSans-Bold"), url("../fonts/pt-sans-v12-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+     url("../fonts/pt-sans-v12-latin_cyrillic-700.woff2") format("woff2"), /* Super Modern Browsers */
+     url("../fonts/pt-sans-v12-latin_cyrillic-700.woff") format("woff"), /* Modern Browsers */
+     url("../fonts/pt-sans-v12-latin_cyrillic-700.ttf") format("truetype"), /* Safari, Android, iOS */
+     url("../fonts/pt-sans-v12-latin_cyrillic-700.svg#PTSans") format("svg");
      /* Legacy iOS */
 }
 
 /* pt-sans-italic - latin_cyrillic */
 
 @font-face {
-     font-family: 'PT Sans';
+     font-family: "PT Sans";
      font-style: italic;
      font-weight: 400;
-     src: url('../fonts/pt-sans-v12-latin_cyrillic-italic.eot');
+     src: url("../fonts/pt-sans-v12-latin_cyrillic-italic.eot");
      /* IE9 Compat Modes */
-     src: local('PT Sans Italic'), local('PTSans-Italic'), url('../fonts/pt-sans-v12-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/pt-sans-v12-latin_cyrillic-italic.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/pt-sans-v12-latin_cyrillic-italic.woff') format('woff'), /* Modern Browsers */
-     url('../fonts/pt-sans-v12-latin_cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
-     url('../fonts/pt-sans-v12-latin_cyrillic-italic.svg#PTSans') format('svg');
+     src: local("PT Sans Italic"), local("PTSans-Italic"), url("../fonts/pt-sans-v12-latin_cyrillic-italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+     url("../fonts/pt-sans-v12-latin_cyrillic-italic.woff2") format("woff2"), /* Super Modern Browsers */
+     url("../fonts/pt-sans-v12-latin_cyrillic-italic.woff") format("woff"), /* Modern Browsers */
+     url("../fonts/pt-sans-v12-latin_cyrillic-italic.ttf") format("truetype"), /* Safari, Android, iOS */
+     url("../fonts/pt-sans-v12-latin_cyrillic-italic.svg#PTSans") format("svg");
      /* Legacy iOS */
 }
 
 /* pt-sans-700italic - latin_cyrillic */
 
 @font-face {
-     font-family: 'PT Sans';
+     font-family: "PT Sans";
      font-style: italic;
      font-weight: 700;
-     src: url('../fonts/pt-sans-v12-latin_cyrillic-700italic.eot');
+     src: url("../fonts/pt-sans-v12-latin_cyrillic-700italic.eot");
      /* IE9 Compat Modes */
-     src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url('../fonts/pt-sans-v12-latin_cyrillic-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/pt-sans-v12-latin_cyrillic-700italic.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/pt-sans-v12-latin_cyrillic-700italic.woff') format('woff'), /* Modern Browsers */
-     url('../fonts/pt-sans-v12-latin_cyrillic-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
-     url('../fonts/pt-sans-v12-latin_cyrillic-700italic.svg#PTSans') format('svg');
+     src: local("PT Sans Bold Italic"), local("PTSans-BoldItalic"), url("../fonts/pt-sans-v12-latin_cyrillic-700italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+     url("../fonts/pt-sans-v12-latin_cyrillic-700italic.woff2") format("woff2"), /* Super Modern Browsers */
+     url("../fonts/pt-sans-v12-latin_cyrillic-700italic.woff") format("woff"), /* Modern Browsers */
+     url("../fonts/pt-sans-v12-latin_cyrillic-700italic.ttf") format("truetype"), /* Safari, Android, iOS */
+     url("../fonts/pt-sans-v12-latin_cyrillic-700italic.svg#PTSans") format("svg");
      /* Legacy iOS */
 }
 
 /* cuprum-regular - latin_cyrillic */
 
 @font-face {
-     font-family: 'Cuprum';
+     font-family: "Cuprum";
      font-style: normal;
      font-weight: 400;
-     src: url('../fonts/cuprum-v12-latin_cyrillic-regular.eot');
+     src: url("../fonts/cuprum-v12-latin_cyrillic-regular.eot");
      /* IE9 Compat Modes */
-     src: local('Cuprum Regular'), local('Cuprum-Regular'), url('../fonts/cuprum-v12-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/cuprum-v12-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/cuprum-v12-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-     url('../fonts/cuprum-v12-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-     url('../fonts/cuprum-v12-latin_cyrillic-regular.svg#Cuprum') format('svg');
+     src: local("Cuprum Regular"), local("Cuprum-Regular"), url("../fonts/cuprum-v12-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+     url("../fonts/cuprum-v12-latin_cyrillic-regular.woff2") format("woff2"), /* Super Modern Browsers */
+     url("../fonts/cuprum-v12-latin_cyrillic-regular.woff") format("woff"), /* Modern Browsers */
+     url("../fonts/cuprum-v12-latin_cyrillic-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+     url("../fonts/cuprum-v12-latin_cyrillic-regular.svg#Cuprum") format("svg");
      /* Legacy iOS */
 }
 
 /* cuprum-700 - latin_cyrillic */
 
 @font-face {
-     font-family: 'Cuprum';
+     font-family: "Cuprum";
      font-style: normal;
      font-weight: 700;
-     src: url('../fonts/cuprum-v12-latin_cyrillic-700.eot');
+     src: url("../fonts/cuprum-v12-latin_cyrillic-700.eot");
      /* IE9 Compat Modes */
-     src: local('Cuprum Bold'), local('Cuprum-Bold'), url('../fonts/cuprum-v12-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/cuprum-v12-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/cuprum-v12-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
-     url('../fonts/cuprum-v12-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
-     url('../fonts/cuprum-v12-latin_cyrillic-700.svg#Cuprum') format('svg');
+     src: local("Cuprum Bold"), local("Cuprum-Bold"), url("../fonts/cuprum-v12-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+     url("../fonts/cuprum-v12-latin_cyrillic-700.woff2") format("woff2"), /* Super Modern Browsers */
+     url("../fonts/cuprum-v12-latin_cyrillic-700.woff") format("woff"), /* Modern Browsers */
+     url("../fonts/cuprum-v12-latin_cyrillic-700.ttf") format("truetype"), /* Safari, Android, iOS */
+     url("../fonts/cuprum-v12-latin_cyrillic-700.svg#Cuprum") format("svg");
      /* Legacy iOS */
 }
 
 /* cuprum-italic - latin_cyrillic */
 
 @font-face {
-     font-family: 'Cuprum';
+     font-family: "Cuprum";
      font-style: italic;
      font-weight: 400;
-     src: url('../fonts/cuprum-v12-latin_cyrillic-italic.eot');
+     src: url("../fonts/cuprum-v12-latin_cyrillic-italic.eot");
      /* IE9 Compat Modes */
-     src: local('Cuprum Italic'), local('Cuprum-Italic'), url('../fonts/cuprum-v12-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/cuprum-v12-latin_cyrillic-italic.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/cuprum-v12-latin_cyrillic-italic.woff') format('woff'), /* Modern Browsers */
-     url('../fonts/cuprum-v12-latin_cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
-     url('../fonts/cuprum-v12-latin_cyrillic-italic.svg#Cuprum') format('svg');
+     src: local("Cuprum Italic"), local("Cuprum-Italic"), url("../fonts/cuprum-v12-latin_cyrillic-italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+     url("../fonts/cuprum-v12-latin_cyrillic-italic.woff2") format("woff2"), /* Super Modern Browsers */
+     url("../fonts/cuprum-v12-latin_cyrillic-italic.woff") format("woff"), /* Modern Browsers */
+     url("../fonts/cuprum-v12-latin_cyrillic-italic.ttf") format("truetype"), /* Safari, Android, iOS */
+     url("../fonts/cuprum-v12-latin_cyrillic-italic.svg#Cuprum") format("svg");
      /* Legacy iOS */
 }
 
 /* cuprum-700italic - latin_cyrillic */
 
 @font-face {
-     font-family: 'Cuprum';
+     font-family: "Cuprum";
      font-style: italic;
      font-weight: 700;
-     src: url('../fonts/cuprum-v12-latin_cyrillic-700italic.eot');
+     src: url("../fonts/cuprum-v12-latin_cyrillic-700italic.eot");
      /* IE9 Compat Modes */
-     src: local('Cuprum Bold Italic'), local('Cuprum-BoldItalic'), url('../fonts/cuprum-v12-latin_cyrillic-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-     url('../fonts/cuprum-v12-latin_cyrillic-700italic.woff2') format('woff2'), /* Super Modern Browsers */
-     url('../fonts/cuprum-v12-latin_cyrillic-700italic.woff') format('woff'), /* Modern Browsers */
-     url('../fonts/cuprum-v12-latin_cyrillic-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
-     url('../fonts/cuprum-v12-latin_cyrillic-700italic.svg#Cuprum') format('svg');
+     src: local("Cuprum Bold Italic"), local("Cuprum-BoldItalic"), url("../fonts/cuprum-v12-latin_cyrillic-700italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+     url("../fonts/cuprum-v12-latin_cyrillic-700italic.woff2") format("woff2"), /* Super Modern Browsers */
+     url("../fonts/cuprum-v12-latin_cyrillic-700italic.woff") format("woff"), /* Modern Browsers */
+     url("../fonts/cuprum-v12-latin_cyrillic-700italic.ttf") format("truetype"), /* Safari, Android, iOS */
+     url("../fonts/cuprum-v12-latin_cyrillic-700italic.svg#Cuprum") format("svg");
      /* Legacy iOS */
 }
 
@@ -188,7 +188,7 @@ body {
      padding: 0;
      font-size: 13px;
      line-height: 24px;
-     font-family: 'PT Sans', Arial, sans-serif;
+     font-family: "PT Sans", Arial, sans-serif;
      font-style: normal;
      font-weight: normal;
      color: var(--basic-black);
@@ -289,7 +289,7 @@ img {
      border: none;
      padding-left: 40px;
      background-color: transparent;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-size: 18px;
      line-height: 24px;
      padding-top: 10px;
@@ -321,7 +321,6 @@ img {
 /* Координаты верхней части шапки*/
 
 .header-top-content {
-     /* grid-column: 1 / 2; */
      width: 490px;
 }
 
@@ -367,7 +366,7 @@ img {
 }
 
 .button-item:last-child {
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      background-color: var(--basic-green);
      color: var(--basic-white);
 }
@@ -380,7 +379,7 @@ img {
      font-size: 18px;
      padding-left: 29px;
      color: var(--basic-white);
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      position: relative;
 }
 
@@ -453,7 +452,7 @@ img {
      padding-right: 21px;
      width: 80px;
      color: var(--basic-white);
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      position: relative;
 }
 
@@ -480,7 +479,7 @@ img {
      padding-bottom: 8px;
      font-size: 18px;
      color: var(--basic-white);
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      position: relative;
 }
 
@@ -533,20 +532,18 @@ img {
      color: var(--basic-white);
 }
 
-.button-item:first-of-type:active a, .button-item-catalog:first-of-type a:focus, .button-item:first-of-type a:focus, .button-item-catalog:first-of-type a:focus, 
-.button-item:nth-of-type(2):active a, .button-item:nth-of-type(2) a:focus{
+.button-item:first-of-type:active a, .button-item-catalog:first-of-type a:focus, .button-item:first-of-type a:focus, .button-item-catalog:first-of-type a:focus, .button-item:nth-of-type(2):active a, .button-item:nth-of-type(2) a:focus {
      background-color: var( --basic-blue-active);
      color: var(--basic-white);
      opacity: 0.5;
 }
-
 
 .button-item:nth-of-type(2):active a, .btn-cart:active a, .button-item:last-of-type:active a, .button-item-catalog:last-of-type:active a, .button-item:nth-of-type(2) a:focus, .btn-cart a:focus, .button-item:last-of-type a:focus, .button-item-catalog:last-of-type a:focus {
      opacity: 0.5;
 }
 
 .header-title {
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-style: italic;
      font-weight: normal;
      font-size: 16px;
@@ -570,7 +567,7 @@ img {
 }
 
 .header-phone {
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-style: normal;
      font-weight: bold;
      font-size: 21px;
@@ -613,7 +610,7 @@ img {
 }
 
 .header-address {
-     font-family: 'Cuprum', Arial, san-serif;
+     font-family: "Cuprum", Arial, san-serif;
      font-size: 14px;
      line-height: 24px;
      color: var(--basic-deep-blue);
@@ -719,7 +716,7 @@ img {
      font-style: italic;
      font-size: 16px;
      line-height: 23px;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
 }
 
 .header-bottom-contact {
@@ -731,13 +728,13 @@ img {
 .header-bottom-tel {
      color: var(--basic-red);
      border: 3px solid var(--basic-white);
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-size: 21px;
      line-height: 30px;
 }
 
 .header-bottom-addres {
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-size: 14px;
      line-height: 24px;
      color: var(--basic-deep-blue);
@@ -747,7 +744,7 @@ img {
      background-color: var(--basic-white);
      color: var(--basic-black);
      text-align: center;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-size: 21px;
      line-height: 21px;
 }
@@ -756,7 +753,7 @@ img {
      color: var(--basic-red);
 }
 
-.header-btn:active {
+.header-btn:active, .header-btn:focus {
      color: var(--basic-greylight);
 }
 
@@ -812,7 +809,7 @@ img {
      text-align: center;
      color: var(--basic-white);
      font-size: 18px;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
 }
 
 .navigation-item a:hover {
@@ -822,7 +819,7 @@ img {
      height: 23px;
 }
 
-.navigation-item a:active {
+.navigation-item a:active, .navigation-item a:focus {
      background-color: var(--basic-navblue-active);
      color: var(--basic-white);
      opacity: 0.5;
@@ -846,7 +843,7 @@ img {
      content: "";
      width: 44px;
      height: 65px;
-     background-image: url('../img/icon-1-menu.svg');
+     background-image: url("../img/icon-1-menu.svg");
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
@@ -870,7 +867,7 @@ img {
      content: "";
      width: 75px;
      height: 61px;
-     background-image: url('../img/icon-2-menu.svg');
+     background-image: url("../img/icon-2-menu.svg");
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
@@ -886,7 +883,7 @@ img {
      content: "";
      width: 78px;
      height: 62px;
-     background-image: url('../img/icon-3-menu.svg');
+     background-image: url("../img/icon-3-menu.svg");
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
@@ -903,7 +900,7 @@ img {
      content: "";
      width: 59px;
      height: 73px;
-     background-image: url('../img/icon-4-menu.svg');
+     background-image: url("../img/icon-4-menu.svg");
      background-position: 0 0;
      background-repeat: no-repeat;
      position: absolute;
@@ -920,7 +917,7 @@ img {
      content: "";
      width: 78px;
      height: 63px;
-     background-image: url('../img/icon-5-menu.svg');
+     background-image: url("../img/icon-5-menu.svg");
      background-position: 0 0;
      background-repeat: no-repeat;
      position: absolute;
@@ -946,7 +943,7 @@ img {
      font-weight: bold;
      font-size: 24px;
      line-height: 30px;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      color: var(--basic-white);
      margin-top: 21px;
      padding-top: 0px;
@@ -976,7 +973,7 @@ img {
 .menu-block a {
      font-size: 14px;
      line-height: 18px;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      color: var(--basic-white);
      text-align: center;
      text-transform: uppercase;
@@ -995,7 +992,7 @@ img {
      background-color: var(--basic-hover-rgb);
 }
 
-.menu-block a:active {
+.menu-block a:active, .menu-block a:focus {
      background-color: var(--basic-old-price-rgb);
 }
 
@@ -1068,7 +1065,7 @@ img {
      color: var(--basic-white);
      font-size: 17px;
      line-height: 18px;
-     font-family: 'PT Sans', Arial, sans-serif;
+     font-family: "PT Sans", Arial, sans-serif;
      font-weight: bold;
      display: block;
      width: 128px;
@@ -1094,13 +1091,15 @@ img {
 
 .slider-arrow a {
      position: relative;
+     width: 23px;
+     height: 41px;
 }
 
 .slider-arrow a:first-child::before {
      content: "";
      width: 23px;
      height: 41px;
-     background-image: url('../img/icon-left-slider.svg');
+     background-image: url("../img/icon-left-slider.svg");
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
@@ -1113,7 +1112,7 @@ img {
      width: 23px;
      height: 41px;
      transform: rotate(180deg);
-     background-image: url('../img/icon-left-slider.svg');
+     background-image: url("../img/icon-left-slider.svg");
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
@@ -1195,13 +1194,13 @@ img {
      line-height: 36px;
      text-transform: uppercase;
      font-weight: bold;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      margin: 24px 0 0 24px;
 }
 
 .slide-description p {
      font-size: 18px;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      margin-left: 24px;
      margin-top: 5px;
      text-transform: lowercase;
@@ -1231,7 +1230,7 @@ img {
      text-transform: uppercase;
      font-size: 30px;
      font-weight: normal;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      line-height: 30px;
      margin-top: 17px;
      margin-bottom: 32px;
@@ -1247,7 +1246,7 @@ img {
      text-align: center;
      text-transform: uppercase;
      color: var(--basic-white);
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-size: 14px;
      line-height: 18px;
      align-self: center;
@@ -1261,7 +1260,7 @@ img {
      background-color: var(--basic-hover-red);
 }
 
-.button:active {
+.button:active, .button:focus {
      background-color: var(--basic-red-active);
 }
 
@@ -1333,7 +1332,7 @@ img {
      content: "new";
      text-transform: uppercase;
      transform: rotate(45deg);
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-size: 14px;
      line-height: 18px;
      text-align: center;
@@ -1361,7 +1360,7 @@ img {
      content: "new";
      text-transform: uppercase;
      transform: rotate(45deg);
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-size: 14px;
      line-height: 18px;
      text-align: center;
@@ -1379,7 +1378,7 @@ img {
      line-height: 20px;
      color: var(--basic-black);
      text-align: center;
-     font-family: 'PT Sans', Arial, sans-serif;
+     font-family: "PT Sans", Arial, sans-serif;
      margin-right: 24px;
      margin-left: 25px;
      padding-bottom: 1px;
@@ -1401,7 +1400,7 @@ img {
      text-decoration-line: line-through;
      text-transform: uppercase;
      color: var(--basic-old-price);
-     font-family: 'PT Sans', Arial, sans-serif;
+     font-family: "PT Sans", Arial, sans-serif;
 }
 
 .photo {
@@ -1466,7 +1465,7 @@ img {
 .btn-buy, .btn-bookmark {
      color: var(--basic-white);
      text-transform: uppercase;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-size: 14px;
      line-height: 18px;
      width: 135px;
@@ -1503,7 +1502,7 @@ img {
      background-color: var(--basic-green-hover);
 }
 
-.btn-buy:active {
+.btn-buy:active, .btn-buy:focus {
      background-color: var(--basic-buy-active);
 }
 
@@ -1523,7 +1522,7 @@ img {
      border: 3px solid var(--basic-deep-blue);
 }
 
-.btn-bookmark:active {
+.btn-bookmark:active, .btn-bookmark:focus {
      border: 3px solid var(--basic-mark-active);
      color: var(--basic-mark-active);
 }
@@ -1555,35 +1554,39 @@ img {
 }
 
 .brands-item a {
-     margin-top: 5px;
+     width: 220px;
+     height: 145px;
+     line-height: 145px;
+     text-align: center;
 }
 
-.brands-item:hover {
-     box-shadow: 0 5px 12px 4px var(--basic-product-border);
+.brand-image {
+     vertical-align: middle;
 }
 
-.brands-item:active {
-     box-shadow: 0 5px 12px 4px var(--basic-product-border);
-     opacity: 0.5;
+/* Тонкое выравнивание изображений*/
+
+.brand-image[alt="makita"], .brand-image[alt="dewalt"] {
+     margin-bottom: 6px;
 }
 
-.brands-item:first-of-type a, .brands-item:last-of-type a, .brands-item:nth-of-type(4) a {
-     margin-top: 9px;
-}
-
-.brands-item:nth-of-type(5) a {
-     margin-top: 11px;
-     margin-left: 5px;
-}
-
-.brands-item:nth-of-type(7) a {
-     margin-top: 11px;
-     margin-left: 1px;
-}
-
-.brands-item:nth-of-type(6) a {
-     margin-top: 8px;
+.brand-image[alt="lg"], .brand-image[alt="interskol"] {
+     margin-bottom: 2px;
      margin-right: 2px;
+}
+
+.brand-image[alt="hitachi"] {
+     margin-left: 5px;
+     margin-top: 1px;
+}
+
+.brands-item a:hover {
+     box-shadow: 0 5px 12px 6px var(--basic-product-border);
+}
+
+.brands-item a:active, .brands-item a:focus {
+     box-shadow: 0 5px 12px 6px var(--basic-product-border);
+     opacity: 0.5;
 }
 
 .brands-item:not(:nth-child(4n+4)) {
@@ -1594,7 +1597,7 @@ img {
 
 .service {
      background-color: var(--basic-white-blue);
-     background-image: url('../img/truck.png');
+     background-image: url("../img/truck.png");
      background-repeat: no-repeat;
      background-position: 793px 257px;
      padding-top: 57px;
@@ -1618,7 +1621,7 @@ img {
 }
 
 .article-servis p, .article-delivery p {
-     font-family: 'PT Sans', Arial, sans-serif;
+     font-family: "PT Sans", Arial, sans-serif;
      font-style: normal;
      font-weight: normal;
      font-size: 13px;
@@ -1639,7 +1642,7 @@ img {
      content: "";
      width: 10px;
      height: 279px;
-     background-image: url('../img/decor-line.png');
+     background-image: url("../img/decor-line.png");
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
@@ -1658,7 +1661,7 @@ img {
      font-weight: bold;
      font-size: 21px;
      line-height: 30px;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      display: block;
      width: 218px;
      margin-top: 1px;
@@ -1683,7 +1686,7 @@ img {
      text-transform: uppercase;
      font-size: 30px;
      font-weight: normal;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      line-height: 30px;
      padding-left: 28px;
      padding-top: 2px;
@@ -1692,7 +1695,7 @@ img {
 .heading-black {
      font-size: 30px;
      font-weight: normal;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      line-height: 30px;
      color: var(--basic-black);
      text-transform: uppercase;
@@ -1713,7 +1716,7 @@ img {
 }
 
 .delivery-car p, .delivery-self p {
-     font-family: 'PT Sans', Arial, sans-serif;
+     font-family: "PT Sans", Arial, sans-serif;
      font-style: normal;
      font-weight: normal;
      font-size: 13px;
@@ -1799,7 +1802,7 @@ img {
      margin: 0;
      padding: 0;
      bottom: 14px;
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-size: 18px;
      line-height: 24px;
 }
@@ -1824,7 +1827,7 @@ img {
      content: "";
      width: 25px;
      height: 2px;
-     background-image: url('../img/marker.svg');
+     background-image: url("../img/marker.svg");
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
@@ -1864,7 +1867,7 @@ img {
 .footer-top p {
      font-size: 18px;
      line-height: 24px;
-     font-family: 'Cuprum', Arail, sans-serif;
+     font-family: "Cuprum", Arail, sans-serif;
      color: var(--basic-footer-adress);
      padding-top: 5px;
      padding-left: 3px;
@@ -1920,7 +1923,7 @@ img {
 .footer-navigation-top-item a {
      font-size: 18px;
      line-height: 24px;
-     font-family: 'Cuprum', Arail, sans-serif;
+     font-family: "Cuprum", Arail, sans-serif;
      color: var(--basic-white-blue);
 }
 
@@ -1936,7 +1939,7 @@ img {
 .footer-navigation-bottom-item a {
      font-size: 18px;
      line-height: 24px;
-     font-family: 'Cuprum', Arail, sans-serif;
+     font-family: "Cuprum", Arail, sans-serif;
      color: var(--basic-brulee);
 }
 
@@ -1977,7 +1980,7 @@ img {
 .copyright {
      font-size: 16px;
      line-height: 18px;
-     font-family: 'Cuprum', Arail, sans-serif;
+     font-family: "Cuprum", Arail, sans-serif;
      color: var(--basic-white);
      grid-column: 1 / 2;
      margin-top: 36px;
@@ -2015,7 +2018,7 @@ img {
      content: "";
      width: 25px;
      height: 15px;
-     background-image: url('../img/vk.svg');
+     background-image: url("../img/vk.svg");
      background-position: 0 0;
      background-repeat: no-repeat;
      position: absolute;
@@ -2027,7 +2030,7 @@ img {
      content: "";
      width: 12px;
      height: 22px;
-     background-image: url('../img/facebook.svg');
+     background-image: url("../img/facebook.svg");
      background-position: 0 0;
      background-repeat: no-repeat;
      position: absolute;
@@ -2039,7 +2042,7 @@ img {
      content: "";
      width: 21px;
      height: 21px;
-     background-image: url('../img/instagram.svg');
+     background-image: url("../img/instagram.svg");
      background-position: 0 0;
      background-repeat: no-repeat;
      position: absolute;
@@ -2048,7 +2051,7 @@ img {
 }
 
 .developer p {
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-size: 16px;
      line-height: 18px;
      color: var(--basic-white);
@@ -2213,7 +2216,7 @@ img {
      position: absolute;
      top: 5px;
      left: 0;
-     background-image: url('../img/icon-right-small.svg');
+     background-image: url("../img/icon-right-small.svg");
      background-repeat: no-repeat;
      background-position: 0 0;
 }
@@ -2649,7 +2652,7 @@ img {
      border: 4px solid var(--basic-disabled-input);
 }
 
-.filter-input-radio[disabled]+label, .filter-input-checkbox[disabled]+label {
+.filter-input-radio:disabled+label, .filter-input-checkbox:disabled+label {
      color: var(--basic-black);
      opacity: 0.4;
 }
@@ -2894,7 +2897,7 @@ img {
      right: 0;
      width: 21px;
      height: 21px;
-     background-image: url('../img/icon-close.svg');
+     background-image: url("../img/icon-close.svg");
      background-repeat: no-repeat;
      background-position: 0 0;
 }
@@ -2940,8 +2943,8 @@ img {
 }
 
 .message-form input[type="text"], .message-form input[type="email"], .message-form textarea {
-     font-family: 'PT Sans', Arial, san-serif;
-     font-size: 13px;
+     font-family: 'PT Sans", Arial, san-serif;
+ font-size: 13px;
      font-weight: 400;
      line-height: 24px;
      color: var(--basic-old-price);
@@ -3005,7 +3008,7 @@ img {
 /* Message of cart*/
 
 .lead-message {
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-weight: bold;
      font-size: 24px;
      line-height: 30px;
@@ -3020,7 +3023,7 @@ img {
      content: "";
      width: 66px;
      height: 66px;
-     background: url('../img/icon-mark.svg');
+     background: url("../img/icon-mark.svg");
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
