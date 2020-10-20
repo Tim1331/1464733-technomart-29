@@ -1325,7 +1325,7 @@ img {
      width: 70px;
      height: 70px;
      background-color: transparent;
-     background-image: linear-gradient(225deg, var(--basic-rgb-white) 17px, var(--basic-red) 17px, var(--basic-red) 48px, var(--basic-rgb-white) 48px);
+     background-image: linear-gradient(225deg, rgba(255, 255, 255, 0) 17px,  #EE3643 17px,  #EE3643 48px,  rgba(255, 255, 255, 0) 48px);
 }
 
 .label-card::after {
@@ -1352,7 +1352,7 @@ img {
      width: 70px;
      height: 70px;
      background-color: transparent;
-     background-image: linear-gradient(225deg, var(--basic-rgb-white) 17px, var(--basic-red) 17px, var(--basic-red) 48px, var(--basic-rgb-white) 48px);
+     background-image: linear-gradient(225deg,  rgba(255, 255, 255, 0) 17px, #EE3643 17px,  #EE3643 48px,  rgba(255, 255, 255, 0) 48px);
 }
 
 .label-hidden::after {
@@ -1931,7 +1931,7 @@ img {
      text-decoration: underline;
 }
 
-.footer-navigation-top-item a:active, .footer-navigation-bottom-item a:active {
+.footer-navigation-top-item a:active, .footer-navigation-bottom-item a:active, .footer-navigation-top-item a:focus, .footer-navigation-bottom-item a:focus{
      opacity: 0.5;
      text-decoration-line: none;
 }
@@ -2000,7 +2000,7 @@ img {
 
 .social-btn a {
      color: var(--basic-white);
-     background-image: linear-gradient(0deg, var(--basic-icon-fon), var(--basic-icon-fon));
+     background-color: var(--basic-icon-fon);
      display: inline-block;
      width: 42px;
      height: 42px;
@@ -2010,8 +2010,8 @@ img {
      border: 1px solid var(--basic-fon);
 }
 
-.social-btn a:hover, .social-btn a:active {
-     background-image: linear-gradient(0deg, var(--basic-red), var(--basic-red));
+.social-btn a:hover, .social-btn a:active, .social-btn a:focus {
+     background-color: var(--basic-red);
 }
 
 .social-btn a:first-of-type::before {
@@ -2076,7 +2076,7 @@ img {
      text-decoration: underline;
 }
 
-.url:active {
+.url:active, .url:focus {
      color: var(--basic-red);
      text-decoration: none;
 }
@@ -2909,7 +2909,7 @@ img {
      height: 343px;
      padding: 40px 80px;
      background-color: var(--basic-white);
-     background-image: linear-gradient(to bottom, var(--basic-white) 310px, var(--basic-fill-grey) 310px, var(--basic-fill-grey) 150px);
+     background-image: linear-gradient(to bottom, #FFFFFF 310px, #F4F4F4 310px, #F4F4F4 150px);
      display: none;
 }
 
@@ -2934,7 +2934,7 @@ img {
 /* Message form*/
 
 .message-form label {
-     font-family: 'Cuprum', Arial, sans-serif;
+     font-family: "Cuprum", Arial, sans-serif;
      font-size: 18px;
      font-weight: 400;
      line-height: 24px;
@@ -2943,7 +2943,7 @@ img {
 }
 
 .message-form input[type="text"], .message-form input[type="email"], .message-form textarea {
-     font-family: 'PT Sans", Arial, san-serif;
+     font-family: "PT Sans", Arial, san-serif;
  font-size: 13px;
      font-weight: 400;
      line-height: 24px;
@@ -2994,7 +2994,7 @@ img {
      width: 620px;
      height: 282px;
      margin-left: 499px;
-     background-image: linear-gradient(to bottom, var(--basic-white) 163px, var(--basic-fill-grey) 163px, var(--basic-fill-grey) 125px);
+     background-image: linear-gradient(to bottom, #FFFFFF 163px, #F4F4F4 163px, #F4F4F4 125px);
      top: 8px;
      left: -1px;
      display: none;
