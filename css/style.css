@@ -133,6 +133,7 @@
 :root {
      --basic-black: #000000;
      --basic-white: #FFFFFF;
+     --basic-white-one: #f1f1f1;
      --basic-red: #EE3643;
      --basic-extra-red: #B52933;
      --basic-hover-red: #CA2C37;
@@ -145,6 +146,7 @@
      --basic-hover-rgb: rgba(197, 197, 197, 0.3);
      --basic-buy-active: #518534;
      --basic-green-hover: #5FBB2D;
+     --basic-green-sea: #00ca74;
      --basic-rgb: rgba(255, 255, 255, 0.5);
      --basic-rgb-white: rgba(255, 255, 255, 0);
      --basic-rgb-extra: rgba(255, 255, 255, 0.4);
@@ -158,6 +160,7 @@
      --basic-shadow-green: #367315;
      --basic-extra-orange: #FFC047;
      --basic-grey-purple: #F9F5F0;
+     --basic-grey-components: #ababab;
      --basic-white-blue: #F1F5F7;
      --basic-icon-fon: #212A3A;
      --basic-brulee: #FFD180;
@@ -172,9 +175,11 @@
      --basic-hover-icon: #3D546F;
      --basic-disabled-input: #B5B5B5;
      --basic-fill-grey: #F4F4F4;
+     --basic-fill-grey-extra: #d7dcde;
+     --basic-shadow-components: #cfcfcf;
 }
 
-/* Для Мозиллы*/
+/* Mozilla*/
 
 ::-moz-placeholder, :-moz-placeholder {
      opacity: 1;
@@ -2382,20 +2387,20 @@ img {
      padding-top: 39px;
      padding-right: 20px;
      padding-left: 20px;
-     background-color: #f1f1f1;
+     background-color: var(--basic-white-one);
      border-radius: 5px;
      position: relative;
 }
 
 .range-controls .scale {
      height: 2px;
-     background: #d7dcde;
+     background: var(--basic-fill-grey-extra);
 }
 
 .range-controls .bar {
      width: 80%;
      height: 2px;
-     background-color: #00ca74;
+     background-color: var(--basic-green-sea);
 }
 
 .range-controls .toggle {
@@ -2406,9 +2411,9 @@ img {
      height: 4px;
      padding: 0;
      border: 8px solid var(--basic-white);
-     background-color: #ababab;
+     background-color: var(--basic-grey-components);
      border-radius: 50%;
-     box-shadow: 0 2px 1px 0 #cfcfcf;
+     box-shadow: 0 2px 1px 0 var(--basic-shadow-components);
      cursor: pointer;
 }
 
@@ -2455,7 +2460,7 @@ img {
      color: #283136;
      border: none;
      border-radius: 4px;
-     background: #f1f1f1;
+     background: var(--basic-white-one);
      font-family: inherit;
      font-size: 17px;
      line-height: 18px;
@@ -2843,7 +2848,7 @@ img {
      border: 1px solid var(--basic-greylight);
 }
 
-.pagination-item a:active {
+.pagination-item a:active, .pagination-item a:focus{
      border: 1px solid var(--basic-red);
 }
 
