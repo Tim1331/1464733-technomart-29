@@ -1149,8 +1149,14 @@ img {
 
 /*points of slider*/
 
-.slider-catalog .point:first-child {
+.slider-catalog .point:first-of-type,
+.slider-catalog .point-active:first-of-type {
      position: relative;
+     left: 295px;
+     bottom: 19px;
+     width: 10px;
+     height: 10px;
+     display: block;
 }
 
 .slider-catalog .point:first-of-type::before {
@@ -1161,8 +1167,26 @@ img {
      border-radius: 5px;
      background-color: var(--basic-white);
      position: absolute;
-     top: 20px;
-     left: 295px;
+}
+
+.slider-catalog .point:last-of-type,
+.slider-catalog .point-active:last-of-type {
+     position: relative;
+     left: 315px;
+     bottom: 29px;
+     width: 10px;
+     height: 10px;
+     display: block
+}
+
+.slider-catalog .point:last-of-type::before {
+     content: "";
+     width: 6px;
+     height: 6px;
+     border: 2px solid var(--basic-white);
+     border-radius: 5px;
+     background-color: var(--basic-white);
+     position: absolute;
 }
 
 .slider-catalog .point-active::before {
@@ -1173,8 +1197,6 @@ img {
      border-radius: 5px;
      background-color: var(--basic-red);
      position: absolute;
-     top: 20px;
-     left: 315px;
 }
 
 /* Slide*/
@@ -1189,7 +1211,7 @@ img {
      max-width: none;
 }
 
-.slide:nth-of-type(2) {
+.visually-slide {
      visibility: hidden;
 }
 
@@ -2369,7 +2391,6 @@ img {
      padding-left: 0;
 }
 
-
 .filter-option label {
      padding-left: 35px;
      position: relative;
@@ -2515,7 +2536,6 @@ img {
 .filter-input-checkbox+label:focus::before {
      outline: 1px solid var(--basic-black);
 }
-
 
 .filter-input-checkbox:checked+label::after {
      content: "";
