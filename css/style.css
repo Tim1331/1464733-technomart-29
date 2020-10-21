@@ -1094,13 +1094,16 @@ img {
      margin-left: 45px;
 }
 
-.slider-arrow a {
+.slider-arrow a:first-of-type {
      position: relative;
      width: 23px;
      height: 41px;
+     display: block;
+     left: 24px;
+     bottom: 3px;
 }
 
-.slider-arrow a:first-child::before {
+.slider-arrow a:first-of-type::before {
      content: "";
      width: 23px;
      height: 41px;
@@ -1108,8 +1111,15 @@ img {
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
-     left: 24px;
-     top: -3px;
+}
+
+.slider-arrow a:last-of-type {
+     position: relative;
+     width: 23px;
+     height: 41px;
+     display: block;
+     left: 577px;
+     bottom: 45px;
 }
 
 .slider-arrow a:last-child::before {
@@ -1121,8 +1131,6 @@ img {
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
-     left: 577px;
-     top: -4px;
 }
 
 .button-slider {
@@ -1592,6 +1600,7 @@ img {
 .brands-item a:active, .brands-item a:focus {
      box-shadow: 0 5px 12px 6px var(--basic-product-border);
      opacity: 0.5;
+     outline: transparent;
 }
 
 .brands-item:not(:nth-child(4n+4)) {
@@ -1844,7 +1853,6 @@ img {
      padding-left: 37px;
      margin-top: 12px;
      position: relative;
-     padding-top: 0;
 }
 
 .delivery-car-item:first-child {
@@ -2361,6 +2369,7 @@ img {
      padding-left: 0;
 }
 
+
 .filter-option label {
      padding-left: 35px;
      position: relative;
@@ -2502,6 +2511,11 @@ img {
      left: 0px;
      top: 2px;
 }
+
+.filter-input-checkbox+label:focus::before {
+     outline: 1px solid var(--basic-black);
+}
+
 
 .filter-input-checkbox:checked+label::after {
      content: "";
@@ -2860,6 +2874,7 @@ img {
 
 .pagination-item a:active, .pagination-item a:focus {
      border: 1px solid var(--basic-red);
+     outline: transparent;
 }
 
 .pagination-item:last-of-type a {
