@@ -1330,7 +1330,7 @@ img {
      width: 70px;
      height: 70px;
      background-color: transparent;
-     background-image: linear-gradient(225deg, rgba(255, 255, 255, 0) 17px,  #EE3643 17px,  #EE3643 48px,  rgba(255, 255, 255, 0) 48px);
+     background-image: linear-gradient(225deg, rgba(255, 255, 255, 0) 17px, #EE3643 17px, #EE3643 48px, rgba(255, 255, 255, 0) 48px);
 }
 
 .label-card::after {
@@ -1357,7 +1357,7 @@ img {
      width: 70px;
      height: 70px;
      background-color: transparent;
-     background-image: linear-gradient(225deg,  rgba(255, 255, 255, 0) 17px, #EE3643 17px,  #EE3643 48px,  rgba(255, 255, 255, 0) 48px);
+     background-image: linear-gradient(225deg, rgba(255, 255, 255, 0) 17px, #EE3643 17px, #EE3643 48px, rgba(255, 255, 255, 0) 48px);
 }
 
 .label-hidden::after {
@@ -1936,7 +1936,7 @@ img {
      text-decoration: underline;
 }
 
-.footer-navigation-top-item a:active, .footer-navigation-bottom-item a:active, .footer-navigation-top-item a:focus, .footer-navigation-bottom-item a:focus{
+.footer-navigation-top-item a:active, .footer-navigation-bottom-item a:active, .footer-navigation-top-item a:focus, .footer-navigation-bottom-item a:focus {
      opacity: 0.5;
      text-decoration-line: none;
 }
@@ -2128,6 +2128,16 @@ img {
 
 /* Icon logout*/
 
+.link-exit {
+     position: relative;
+     bottom: 21px;
+     left: 206px;
+     width: 20px;
+     height: 19px;
+     display: block;
+     cursor: pointer;
+}
+
 .link-exit::before {
      content: "";
      width: 20px;
@@ -2136,16 +2146,13 @@ img {
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
-     top: 14px;
-     right: 16px;
-     cursor: pointer;
 }
 
 .link-exit:hover::before {
      background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='17' viewBox='0 0 20 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 8.5L11.125 0V6H5.125V11H11.125V17L20 8.5Z' fill='%233D546F'/%3E%3Cpath d='M2.10598 13.952V3.048C2.12398 2.672 2.27698 1.991 3.11598 1.991H8.14297V0H3.11598C0.937975 0 0.111975 1.81 0.0869751 3.027V13.973C0.111975 15.189 0.937975 17 3.11598 17H8.14297V15.01H3.11598C2.27698 15.01 2.12398 14.327 2.10598 13.952Z' fill='%233D546F'/%3E%3C/svg%3E%0A");
 }
 
-.link-exit:active::before {
+.link-exit:active::before, .link-exit:focus::before {
      background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='17' viewBox='0 0 20 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 8.5L11.125 0V6H5.125V11H11.125V17L20 8.5Z' fill='%23C5C5C5'/%3E%3Cpath d='M2.10598 13.952V3.048C2.12398 2.672 2.27698 1.991 3.11598 1.991H8.14297V0H3.11598C0.937975 0 0.111975 1.81 0.0869751 3.027V13.973C0.111975 15.189 0.937975 17 3.11598 17H8.14297V15.01H3.11598C2.27698 15.01 2.12398 14.327 2.10598 13.952Z' fill='%23C5C5C5'/%3E%3C/svg%3E%0A");
 }
 
@@ -2166,7 +2173,7 @@ img {
      color: var(--basic-red);
 }
 
-.btn-item a:active {
+.btn-item a:active, .btn-item a:focus {
      color: var(--basic-greylight);
 }
 
@@ -2193,14 +2200,17 @@ img {
 
 .item-bread:first-of-type a {
      position: relative;
-     margin-right: 26px;
+     top: 3px;
+     margin-right: 15px;
+     width: 14px;
+     height: 16px;
+     display: block;
 }
 
 .item-bread:first-of-type a::before {
      content: "";
      position: absolute;
      top: 3px;
-     left: 0;
      width: 14px;
      height: 12px;
      background-image: url(../img/icon-home.svg);
@@ -2848,7 +2858,7 @@ img {
      border: 1px solid var(--basic-greylight);
 }
 
-.pagination-item a:active, .pagination-item a:focus{
+.pagination-item a:active, .pagination-item a:focus {
      border: 1px solid var(--basic-red);
 }
 
@@ -2949,7 +2959,7 @@ img {
 
 .message-form input[type="text"], .message-form input[type="email"], .message-form textarea {
      font-family: "PT Sans", Arial, san-serif;
- font-size: 13px;
+     font-size: 13px;
      font-weight: 400;
      line-height: 24px;
      color: var(--basic-old-price);

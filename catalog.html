@@ -13,7 +13,7 @@
 		<section class="header-top">
 			<div class="container">
 				<h2 class="visually-hidden placement">техномарт</h2>
-				<a href="index.html" class="logo"><img src="img/logo-technomart.png" alt="ТЕХНОМАРТ" width="108"
+				<a href="index.html" class="logo"><img src="img/logo-technomart.png" alt="техномарт" width="108"
 						height="18"></a>
 				<form class="search" action="https://echo.htmlacademy.ru" method="post">
 					<input type="search" name="search" id="search-products" placeholder="Поиск:">
@@ -40,7 +40,9 @@
 				<div class="block-user">
 					<p>
 						<a class="link-user" href="#">Равшан Джамшутович</a>
-						<a class="link-exit" aria-label="Выйти"></a>
+						<a class="link-exit" tabindex="0">
+							<span class="visually-hidden">Иконка выйти</span>
+						</a>
 					</p>
 					<ul class="btn-list">
 						<li class="btn-item"><a href="#">Мои заказы</a></li>
@@ -65,7 +67,9 @@
 		<div class="container">
 			<ul class="breadcrumbs">
 				<li class="item-bread">
-					<a href="index.html">&nbsp;</a>
+					<a href="index.html" tabindex="0">
+						<span class="visually-hidden">Иконка домой</span>
+					</a>
 				</li>
 				<li class="item-bread">
 					<a href="catalog.html">каталог</a>
