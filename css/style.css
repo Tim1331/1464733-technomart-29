@@ -2741,7 +2741,6 @@ img {
 
 .sort-item:first-child {
      color: var(--basic-black);
-     text-transform: uppercase;
      opacity: 1;
      padding-left: 19px;
      padding-right: 140px;
@@ -2750,13 +2749,18 @@ img {
 .sort-item {
      padding-right: 65px;
      margin-top: -4px;
+     text-transform: uppercase;
 }
 
 .sort-item:not(:first-of-type) {
      cursor: pointer;
 }
 
-.sort-item:nth-child(3) {
+.sort-item:nth-of-type(2) {
+     margin-top: -6px;
+}
+
+.sort-item:nth-of-type(3) {
      margin-left: 6px;
      margin-right: -4px;
      padding-right: 70px;
@@ -2766,33 +2770,28 @@ img {
      padding-right: 16px;
 }
 
-.sort-item span {
+.sort-item .item-name {
      display: block;
      position: relative;
      border-bottom: 1px dotted var(--basic-red);
-}
-
-.sort-item .indicator, .sort-item:hover .indicator {
-     color: var(--basic-red);
-     opacity: 1;
-     border-bottom: none;
-}
-
-.sort-item span:hover {
-     display: block;
-     color: var(--basic-black);
-     border-bottom: 1px solid var(--basic-red);
-}
-
-.sort-item span {
      line-height: 18px;
      opacity: 0.3;
      text-transform: uppercase;
 }
 
-.sort-item:hover span {
+.sort-item .indicator, .sort-item:hover .indicator, .sort-item .indicator:focus{
+     color: var(--basic-red);
+     opacity: 1;
+     border-bottom: none;
+}
+
+.sort-item .item-name:hover, .sort-item .item-name:focus{
+     display: block;
+     color: var(--basic-black);
+     border-bottom: 1px solid var(--basic-red);
      opacity: 1;
 }
+
 
 .sort-list li:hover {
      opacity: 1;
@@ -2802,9 +2801,14 @@ img {
      list-style-type: none;
 }
 
-.icon-item {
+.icon-item:first-of-type, .active-dir:first-of-type {
      position: relative;
-     cursor: pointer
+     top: 2px;
+     right: 10px;
+     display: block;
+     width: 10px;
+     height: 10px;
+     cursor: pointer;
 }
 
 .icon-item:first-of-type::before {
@@ -2828,6 +2832,16 @@ img {
      background-image: url("data:image/svg+xml,%0A%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.5 10L0 0H11' fill='%23EE3643'/%3E%3C/svg%3E%0A");
 }
 
+.icon-item:last-of-type, .active-dir:last-of-type {
+     position: relative;
+     top: 1px;
+     left: 12px;
+     display: block;
+     width: 10px;
+     height: 10px;
+     cursor: pointer;
+}
+
 .icon-item:last-of-type::before {
      content: "";
      width: 11px;
@@ -2836,8 +2850,6 @@ img {
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
-     bottom: 1px;
-     right: -33px;
 }
 
 .icon-item:last-of-type:hover::before {
