@@ -59,24 +59,3 @@ window.addEventListener("keydown", function (evt) {
       }
     }
   });
-
-// --- Реализация открытия модального окна с сообщением Корзины ---
-
-let cartPopup = document.querySelector(".modal-cart");
-let cartClose = document.querySelector(".modal-cart-close");
-
-let cartBuys = document.querySelectorAll(".btn-buy");
-for (var i = 0; i < cartBuys.length; i++) {
-
-    cartBuys[i].addEventListener("click", function(evt) {
-        evt.preventDefault();
-        cartPopup.classList.add("modal-show");
-    })
-};
-
-
-
-cartClose.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    cartPopup.classList.remove("modal-show");
-});
