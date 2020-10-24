@@ -281,7 +281,7 @@
 						заехав в наш офис:
 					</p>
 					<figure class="map-block">
-						<a href="#"><img src="img/map.jpg" alt="Карта местонахождения" width="330" height="158"></a>
+						<a href="#" class="map-link"><img src="img/map.jpg" alt="Карта местонахождения" width="330" height="158"></a>
 					</figure>
 				</div>
 				<a class="button button-coordinate" href="#">заблудились? напишите нам!</a>
@@ -344,15 +344,15 @@
 		<form class="message-form" action="https://echo.htmlacademy.ru" method="post">
 			<label for="name-surname">
 				Ваше имя:
-				<input type="text" id="name-surname" name="surname" placeholder="Имя Фамилия">
+				<input  class="message-surname" type="text" id="name-surname" name="surname" placeholder="Имя Фамилия">
 			</label>
 			<label for="login-login">
 				Ваш e-mail:
-				<input type="email" id="login-login" name="login" placeholder="email@example.com">
+				<input class="message-email" type="email" id="login-login" name="login" placeholder="email@example.com">
 			</label>
 			<label class="label-field" for="field-message">
 				Текст письма:
-				<textarea class="field" name="message" cols="60" rows="4"
+				<textarea class="message-field" name="message" cols="60" rows="4"
 					id="field-message">В свободной форме</textarea>
 			</label>
 			<button class="button button-message" type="submit">Отправить</button>
@@ -365,8 +365,9 @@
 			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123886!2d30.320894615957386!3d59.93879686904808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1602692062440!5m2!1sru!2sru"
 			width="943" height="442" allowfullscreen="" aria-hidden="false" tabindex="0"
 			title="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></iframe>
-		<button class="modal-close" type="button" aria-label="Закрыть"></button>
+		<button class="modal-map-close" type="button" aria-label="Закрыть"></button>
 	</section>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
