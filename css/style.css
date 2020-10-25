@@ -1094,6 +1094,7 @@ img {
      margin-left: 45px;
 }
 
+
 .slider-arrow a:first-of-type {
      position: relative;
      width: 23px;
@@ -1209,7 +1210,7 @@ img {
      max-width: none;
 }
 
-.visually-slide {
+.slide-show {
      visibility: hidden;
 }
 
@@ -2983,7 +2984,7 @@ img {
 
 /*Textarea modal-message*/
 
-.field {
+.message-field {
      resize: none;
 }
 

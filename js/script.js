@@ -26,7 +26,7 @@ messageForm.addEventListener("submit", function (evt) {
         messagePopup.classList.remove("modal-error");
         messagePopup.offsetWidth = messagePopup.offsetWidth;
         messagePopup.classList.add("modal-error");
-        
+
     } else {
         localStorage.setItem("login", messageEmail.value);
     }
@@ -53,9 +53,11 @@ mapClose.addEventListener("click", function (evt) {
 
 window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
-      if (messagePopup.classList.contains("modal-show")) {
-        evt.preventDefault();
-        messagePopup.classList.remove("modal-show");
-      }
+        if (messagePopup.classList.contains("modal-show")) {
+            evt.preventDefault();
+            messagePopup.classList.remove("modal-show");
+        }
     }
-  });
+});
+
+
