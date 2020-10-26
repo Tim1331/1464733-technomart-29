@@ -2582,7 +2582,7 @@ img {
      top: 2px;
 }
 
-.filter-input-checkbox+label:focus::before {
+.filter-input-checkbox:focus+label::before {
      outline: 1px solid var(--basic-black);
 }
 
@@ -2598,9 +2598,6 @@ img {
      top: 2px;
 }
 
-.filter-input-checkbox {
-     margin-top: 10px;
-}
 
 /*Индивидуальные стили label checkbox*/
 
@@ -2703,6 +2700,15 @@ img {
      border-radius: 50%;
      position: absolute;
      left: 0px;
+}
+
+.filter-input-radio:focus:checked+label::before
+ {
+     outline: 1px solid var(--basic-black);
+}
+
+.filter-input-radio:focus+label::before {
+     outline: 1px solid var(--basic-black);
 }
 
 .filter-input-radio:checked+label::after {
