@@ -137,6 +137,7 @@
      --basic-red: #EE3643;
      --basic-extra-red: #B52933;
      --basic-hover-red: #CA2C37;
+     --basic-blood-color: #FF5357;
      --basic-deep-blue: #32425C;
      --basic-night-blue: #293449;
      --basic-red-active: #BA2732;
@@ -1281,6 +1282,7 @@ img {
 .heading-credit {
      margin-bottom: 29px;
 }
+
 .button-block {
      width: 192px;
      padding-right: 14px;
@@ -1687,6 +1689,16 @@ img {
      background-image: url(../img/credit.png);
      background-repeat: no-repeat;
      background-position: 154px 15px;
+}
+
+.slide-button, .slide-button:hover, .slide-button:focus {
+     background-color: var(--basic-blood-color);
+     border-radius: 3px;
+     padding-top: 11px;
+     padding-bottom: 9px;
+     width: 195px;
+     margin-left: -1px;
+     margin-top: 26px;
 }
 
 .article-servis p, .delivery-slide p, .warranty-slide p, .credit-slide p {
@@ -2869,7 +2881,7 @@ img {
      background-image: url("data:image/svg+xml,%0A%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.5 10L0 0H11' fill='%23EE3643'/%3E%3C/svg%3E%0A");
 }
 
-.icon-item:last-of-type a, .active-dir:last-of-type a{
+.icon-item:last-of-type a, .active-dir:last-of-type a {
      position: relative;
      top: 1px;
      left: 12px;
@@ -2878,7 +2890,7 @@ img {
      height: 10px;
 }
 
-.icon-item:last-of-type a::before  {
+.icon-item:last-of-type a::before {
      content: "";
      width: 11px;
      height: 10px;
