@@ -223,8 +223,6 @@ img {
      align-content: start;
 }
 
-/*-------------------------------------------------*/
-
 /*центровщик*/
 
 .container {
@@ -1668,7 +1666,7 @@ img {
      grid-column: 2 / 3;
      margin-left: 11px;
      margin-top: -20px;
-     background-image: url(../img/truck.png);
+     background-image: url("../img/truck.png");
      background-repeat: no-repeat;
      background-position: 150px 39px;
 }
@@ -1677,7 +1675,7 @@ img {
      grid-column: 2 / 3;
      margin-left: 11px;
      margin-top: -18px;
-     background-image: url(../img/warranty.png);
+     background-image: url("../img/warranty.png");
      background-repeat: no-repeat;
      background-position: 232px 15px;
 }
@@ -1686,7 +1684,7 @@ img {
      grid-column: 2 / 3;
      margin-left: 11px;
      margin-top: -18px;
-     background-image: url(../img/credit.png);
+     background-image: url("../img/credit.png");
      background-repeat: no-repeat;
      background-position: 154px 15px;
 }
