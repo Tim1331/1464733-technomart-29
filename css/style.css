@@ -1092,16 +1092,17 @@ img {
      margin-left: 45px;
 }
 
-.slider-arrow a:first-of-type {
+.slider-arrow span:first-of-type {
      position: relative;
      width: 23px;
      height: 41px;
      display: block;
      left: 24px;
      bottom: 3px;
+     cursor: pointer;
 }
 
-.slider-arrow a:first-of-type::before {
+.slider-arrow span:first-of-type::before {
      content: "";
      width: 23px;
      height: 41px;
@@ -1109,18 +1110,20 @@ img {
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
+     display: block;
 }
 
-.slider-arrow a:last-of-type {
+.slider-arrow span:last-of-type {
      position: relative;
      width: 23px;
      height: 41px;
      display: block;
      left: 577px;
      bottom: 45px;
+     cursor: pointer;
 }
 
-.slider-arrow a:last-child::before {
+.slider-arrow span:last-child::before {
      content: "";
      width: 23px;
      height: 41px;
@@ -1129,6 +1132,7 @@ img {
      background-repeat: no-repeat;
      background-position: 0 0;
      position: absolute;
+     display: block;
 }
 
 .button-slider {
@@ -1716,10 +1720,10 @@ img {
 }
 
 .service li {
-     width: 240px;
+     width: 218px;
 }
 
-.service-item a {
+.service-item {
      background-color: var(--basic-deep-blue);
      box-shadow: 0 1px 0 var(--basic-night-blue), inset 0 1px 0 var(--basic-hover-delivery);
      color: var(--basic-white);
@@ -1733,14 +1737,15 @@ img {
      padding-left: 22px;
      padding-top: 15px;
      height: 46px;
+     cursor: pointer;
 }
 
-.service-item a:hover {
+.service-item:hover {
      background-color: var(--basic-night-blue);
      box-shadow: 0 1px 0 var(--basic-night-blue), inset 0 1px 0 var(--basic-hover-delivery);
 }
 
-.service-item .active, .service-item .active:hover {
+.service-list .active, .service-list .active:hover {
      background-color: var(--basic-white);
      color: var(--basic-deep-blue);
      box-shadow: none;
@@ -2578,6 +2583,10 @@ img {
      top: 2px;
 }
 
+.filter-input-checkbox {
+     margin-top: 10px;
+}
+
 /*Индивидуальные стили label checkbox*/
 
 .filter-option:first-of-type label {
@@ -2829,7 +2838,7 @@ img {
      list-style-type: none;
 }
 
-.icon-item:first-of-type, .active-dir:first-of-type {
+.icon-item:first-of-type a, .active-dir:first-of-type a {
      position: relative;
      top: 2px;
      right: 10px;
@@ -2839,7 +2848,7 @@ img {
      cursor: pointer;
 }
 
-.icon-item:first-of-type::before {
+.icon-item:first-of-type a::before {
      content: "";
      width: 11px;
      height: 10px;
@@ -2852,25 +2861,24 @@ img {
      right: -1px;
 }
 
-.icon-item:first-of-type:hover::before {
+.icon-item:first-of-type a:hover::before {
      background-image: url("data:image/svg+xml,%0A%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.5 10L0 0H11' fill='%23000000'/%3E%3C/svg%3E%0A");
 }
 
-.active-dir:first-of-type::before, .active-dir:first-of-type:hover::before {
+.active-dir:first-of-type a::before, .active-dir:first-of-type a:hover::before {
      background-image: url("data:image/svg+xml,%0A%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.5 10L0 0H11' fill='%23EE3643'/%3E%3C/svg%3E%0A");
 }
 
-.icon-item:last-of-type, .active-dir:last-of-type {
+.icon-item:last-of-type a, .active-dir:last-of-type a{
      position: relative;
      top: 1px;
      left: 12px;
      display: block;
      width: 10px;
      height: 10px;
-     cursor: pointer;
 }
 
-.icon-item:last-of-type::before {
+.icon-item:last-of-type a::before  {
      content: "";
      width: 11px;
      height: 10px;
@@ -2880,11 +2888,11 @@ img {
      position: absolute;
 }
 
-.icon-item:last-of-type:hover::before {
+.icon-item:last-of-type a:hover::before {
      background-image: url("data:image/svg+xml,%0A%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.5 10L0 0H11' fill='%23000000'/%3E%3C/svg%3E%0A");
 }
 
-.active-dir:last-of-type::before, .active-dir:last-of-type:hover::before {
+.active-dir:last-of-type a::before, .active-dir:last-of-type a:hover::before {
      background-image: url("data:image/svg+xml,%0A%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.5 10L0 0H11' fill='%23EE3643'/%3E%3C/svg%3E%0A");
 }
 
